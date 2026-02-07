@@ -1,0 +1,31 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+    <Style TargetType="ListView"
+           BasedOn="{StaticResource MaterialDesignListView}">
+        <Setter Property="Background" Value="{StaticResource ListViewBackground}"/>
+    </Style>
+    <Style TargetType="ListViewItem"
+           BasedOn="{StaticResource MaterialDesign3.NavigationBarListBoxItem}">
+    </Style>
+    <Style TargetType="ItemsControl"
+           x:Key="ErrorText">
+        <Setter Property="Foreground" Value="{StaticResource ValidationErrorForeground}"/>
+    </Style>
+    <Style TargetType="TextBox"
+           BasedOn="{StaticResource MaterialDesignFloatingHintTextBox}">
+        <Setter Property="Background" Value="{StaticResource TextBoxBackground}"/>
+        <Setter Property="AutomationProperties.Name" Value=""/>
+        <Setter Property="Validation.ErrorTemplate">
+            <Setter.Value>
+                <ControlTemplate>
+                </ControlTemplate>
+            </Setter.Value>
+        </Setter>
+        <Style.Triggers>
+            <Trigger Property="Validation.HasError" Value="True">
+                <Setter Property="Background" Value="{StaticResource ValidationErrorBackground}"/>
+                <Setter Property="BorderBrush" Value="{StaticResource ValidationErrorBorder}"/>
+            </Trigger>
+        </Style.Triggers>
+    </Style>
+</ResourceDictionary>

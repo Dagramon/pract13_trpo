@@ -1,0 +1,85 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\st310-10\\source\\repos\\pract12_trpo\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{193CDB7D-ADD4-4BD1-BA64-5BD8BAF835F2}|pract12_trpo.csproj|c:\\users\\st310-10\\source\\repos\\pract12_trpo\\migrations\\20260207065110_addeduserprofiles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{193CDB7D-ADD4-4BD1-BA64-5BD8BAF835F2}|pract12_trpo.csproj|solutionrelative:migrations\\20260207065110_addeduserprofiles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{193CDB7D-ADD4-4BD1-BA64-5BD8BAF835F2}|pract12_trpo.csproj|c:\\users\\st310-10\\source\\repos\\pract12_trpo\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{193CDB7D-ADD4-4BD1-BA64-5BD8BAF835F2}|pract12_trpo.csproj|solutionrelative:data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{193CDB7D-ADD4-4BD1-BA64-5BD8BAF835F2}|pract12_trpo.csproj|c:\\users\\st310-10\\source\\repos\\pract12_trpo\\classes\\userprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{193CDB7D-ADD4-4BD1-BA64-5BD8BAF835F2}|pract12_trpo.csproj|solutionrelative:classes\\userprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{193CDB7D-ADD4-4BD1-BA64-5BD8BAF835F2}|pract12_trpo.csproj|c:\\users\\st310-10\\source\\repos\\pract12_trpo\\classes\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{193CDB7D-ADD4-4BD1-BA64-5BD8BAF835F2}|pract12_trpo.csproj|solutionrelative:classes\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "20260207065110_AddedUserProfiles.cs",
+              "DocumentMoniker": "C:\\Users\\st310-10\\source\\repos\\pract12_trpo\\Migrations\\20260207065110_AddedUserProfiles.cs",
+              "RelativeDocumentMoniker": "Migrations\\20260207065110_AddedUserProfiles.cs",
+              "ToolTip": "C:\\Users\\st310-10\\source\\repos\\pract12_trpo\\Migrations\\20260207065110_AddedUserProfiles.cs",
+              "RelativeToolTip": "Migrations\\20260207065110_AddedUserProfiles.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAABEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-07T06:51:10.41Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\st310-10\\source\\repos\\pract12_trpo\\Data\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "Data\\AppDbContext.cs",
+              "ToolTip": "C:\\Users\\st310-10\\source\\repos\\pract12_trpo\\Data\\AppDbContext.cs",
+              "RelativeToolTip": "Data\\AppDbContext.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAYwBoAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-07T06:48:59.172Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "UserProfile.cs",
+              "DocumentMoniker": "C:\\Users\\st310-10\\source\\repos\\pract12_trpo\\Classes\\UserProfile.cs",
+              "RelativeDocumentMoniker": "Classes\\UserProfile.cs",
+              "ToolTip": "C:\\Users\\st310-10\\source\\repos\\pract12_trpo\\Classes\\UserProfile.cs",
+              "RelativeToolTip": "Classes\\UserProfile.cs",
+              "ViewState": "AgIAABcAAAAAAAAAAAA3wCoAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-07T06:42:46.298Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\st310-10\\source\\repos\\pract12_trpo\\Classes\\User.cs",
+              "RelativeDocumentMoniker": "Classes\\User.cs",
+              "ToolTip": "C:\\Users\\st310-10\\source\\repos\\pract12_trpo\\Classes\\User.cs",
+              "RelativeToolTip": "Classes\\User.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAQwCkAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-28T10:06:47.526Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

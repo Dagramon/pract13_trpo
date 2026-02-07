@@ -1,0 +1,14 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+    <SolidColorBrush x:Key="GreenButtonBackground" Color="#00ffa2"/>
+    <SolidColorBrush x:Key="GreenButtonHover" Color="#73d978"/>
+    <SolidColorBrush x:Key="RedButtonBackground" Color="#ff0055"/>
+    <SolidColorBrush x:Key="RedButtonHover" Color="#E65A4F"/>
+
+    <SolidColorBrush x:Key="ValidationErrorForeground" Color="Brown"/>
+    <SolidColorBrush x:Key="ValidationErrorBackground" Color="#FFE8E8"/>
+    <SolidColorBrush x:Key="ValidationErrorBorder" Color="#D93025"/>
+
+    <SolidColorBrush x:Key="TextBoxBackground" Color="#7ba4ad"/>
+    <SolidColorBrush x:Key="ListViewBackground" Color="#054d5e"/>
+</ResourceDictionary>
