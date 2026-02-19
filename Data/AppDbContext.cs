@@ -14,6 +14,7 @@ namespace pract12_trpo.Data
     {
         public DbSet<User> Users { get; set; }
         public DbSet<UserProfile> UserProfiles { get; set; }
+        public DbSet<Role> Roles { get; set; }
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
             optionsBuilder.UseSqlServer("Server=sql.ects;Database=KaramovUsersDB;User Id=student_10;Password=student_10;TrustServerCertificate=True;");
@@ -24,6 +25,11 @@ namespace pract12_trpo.Data
                 .HasOne(u => u.UserProfile)
                 .WithOne(up => up.User)
                 .HasForeignKey<UserProfile>(up => up.UserId);
+
+            modelBuilder.Entity<Role>() //TODO СДЕЛАТЬ МИГРАЦИЮ
+                .HasMany(r => r.Users)
+                .WithOne(u => u.Role)
+                .HasForeignKey(u => u.RoleId);
         }
     }
 }

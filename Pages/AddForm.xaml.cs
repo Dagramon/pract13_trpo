@@ -50,6 +50,14 @@ namespace pract12_trpo.Pages
             {
                 return false;
             }
+            if (CheckBoxProfile.IsChecked == true &&
+                _user.UserProfile.AvatarUrl == null || _user.UserProfile.AvatarUrl != AvatarUrlTextBox.Text ||
+                _user.UserProfile.Phone.ToString() == null || _user.UserProfile.Phone.ToString() != PhoneTextBox.Text ||
+                _user.UserProfile.Birthday.ToString() == null || _user.UserProfile.Birthday != BirthdayPicker.SelectedDate ||
+                _user.UserProfile.Bio == null || _user.UserProfile.Bio != BioTextBox.Text)
+            {
+                return false;
+            }
             return true;
         }
         private void Save(object sender, RoutedEventArgs e)
@@ -65,6 +73,8 @@ namespace pract12_trpo.Pages
                     MessageBox.Show("Не все поля заполнены корректно");
                     return;
                 }
+                if (CheckBoxProfile.IsChecked == false)
+                    _user.UserProfile = null;
                 _user.CreatedAt = DateTime.Now;
                 _service.Add(_user);
             }

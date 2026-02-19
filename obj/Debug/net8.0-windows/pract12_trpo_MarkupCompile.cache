@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-C:\Users\st310-10\Source\Repos\pract12_trpo\obj\Debug\net8.0-windows\
+C:\Users\Damir\Source\Repos\pract13_trpo\obj\Debug\net8.0-windows\
 pract12_trpo
 none
 false
 TRACE;DEBUG;NET;NET8_0;NETCOREAPP;WINDOWS;WINDOWS7_0;NET5_0_OR_GREATER;NET6_0_OR_GREATER;NET7_0_OR_GREATER;NET8_0_OR_GREATER;NETCOREAPP3_0_OR_GREATER;NETCOREAPP3_1_OR_GREATER;WINDOWS7_0_OR_GREATER
-C:\Users\st310-10\Source\Repos\pract12_trpo\App.xaml
-61205013284
-22-1807089180
-24-952728148
-2311002917265
-MainWindow.xaml;Pages\AddForm.xaml;Pages\MainPage.xaml;Styles\Colors\Default.xaml;UI\Buttons.xaml;UI\GUI.xaml;
+C:\Users\Damir\Source\Repos\pract13_trpo\App.xaml
+81155055235
+221625505244
+291673066370
+231-888353999
+MainWindow.xaml;Pages\AddForm.xaml;Pages\AddRolePage.xaml;Pages\MainPage.xaml;Pages\RolesPage.xaml;Styles\Colors\Default.xaml;UI\Buttons.xaml;UI\GUI.xaml;
 
 False
 

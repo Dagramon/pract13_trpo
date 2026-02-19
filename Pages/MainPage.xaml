@@ -16,6 +16,7 @@
         <StackPanel Grid.Row="0">
             <Button Click="AddNavigate" Style="{StaticResource GreenButton}">Добавить</Button>
             <Button Click="Remove" Style="{StaticResource RedButton}">Удалить</Button>
+            <Button Click="RolesNavigate">Роли</Button>
         </StackPanel>
         <ListView Grid.Row="1"
                   ItemsSource="{Binding service.Users}"
@@ -23,30 +24,54 @@
                   SelectedItem="{Binding user}">
             <ListView.ItemTemplate>
                 <DataTemplate>
-                    <StackPanel>
-                        <StackPanel Orientation="Horizontal">
-                            <TextBlock Text="ID: "/>
-                            <TextBlock Text="{Binding Id}"></TextBlock>
+                    <StackPanel Orientation="Horizontal">
+                        <StackPanel>
+                            <StackPanel Orientation="Horizontal">
+                                <TextBlock Text="ID: "/>
+                                <TextBlock Text="{Binding Id}"></TextBlock>
+                            </StackPanel>
+                            <StackPanel Orientation="Horizontal">
+                                <TextBlock Text="Логин: "/>
+                                <TextBlock Text="{Binding Login}"></TextBlock>
+                            </StackPanel>
+                            <StackPanel Orientation="Horizontal">
+                                <TextBlock Text="Имя пользователя: "/>
+                                <TextBlock Text="{Binding UserName}"></TextBlock>
+                            </StackPanel>
+                            <StackPanel Orientation="Horizontal">
+                                <TextBlock Text="Почта: "/>
+                                <TextBlock Text="{Binding Email}"></TextBlock>
+                            </StackPanel>
+                            <StackPanel Orientation="Horizontal">
+                                <TextBlock Text="Пароль: "/>
+                                <TextBlock Text="{Binding Password}"></TextBlock>
+                            </StackPanel>
+                            <StackPanel Orientation="Horizontal">
+                                <TextBlock Text="Дата создания: "/>
+                                <TextBlock Text="{Binding CreatedAt, StringFormat={}{0:dd.MM.yyyy HH:mm}}"></TextBlock>
+                            </StackPanel>
+                            <StackPanel>
+                                <TextBlock Text="Группа: "/>
+                                <TextBlock Text="{Binding Role.Title}"/>
+                            </StackPanel>
                         </StackPanel>
-                        <StackPanel Orientation="Horizontal">
-                            <TextBlock Text="Логин: "/>
-                            <TextBlock Text="{Binding Login}"></TextBlock>
-                        </StackPanel>
-                        <StackPanel Orientation="Horizontal">
-                            <TextBlock Text="Имя пользователя: "/>
-                            <TextBlock Text="{Binding UserName}"></TextBlock>
-                        </StackPanel>
-                        <StackPanel Orientation="Horizontal">
-                            <TextBlock Text="Почта: "/>
-                            <TextBlock Text="{Binding Email}"></TextBlock>
-                        </StackPanel>
-                        <StackPanel Orientation="Horizontal">
-                            <TextBlock Text="Пароль: "/>
-                            <TextBlock Text="{Binding Password}"></TextBlock>
-                        </StackPanel>
-                        <StackPanel Orientation="Horizontal">
-                            <TextBlock Text="Дата создания: "/>
-                            <TextBlock Text="{Binding CreatedAt, StringFormat={}{0:dd.MM.yyyy HH:mm}}"></TextBlock>
+                        <StackPanel>
+                            <StackPanel Orientation="Horizontal">
+                                <TextBlock Text="Ссылка на аватар: "/>
+                                <TextBlock Text="{Binding UserProfile.AvatarUrl}"></TextBlock>
+                            </StackPanel>
+                            <StackPanel Orientation="Horizontal">
+                                <TextBlock Text="Номер телефона: "/>
+                                <TextBlock Text="{Binding UserProfile.Phone}"></TextBlock>
+                            </StackPanel>
+                            <StackPanel Orientation="Horizontal">
+                                <TextBlock Text="Дата рождения: "/>
+                                <TextBlock Text="{Binding UserProfile.Birthday}"></TextBlock>
+                            </StackPanel>
+                            <StackPanel Orientation="Horizontal">
+                                <TextBlock Text="Описание: "/>
+                                <TextBlock Text="{Binding UserProfile.Bio}"></TextBlock>
+                            </StackPanel>
                         </StackPanel>
                     </StackPanel>
                 </DataTemplate>

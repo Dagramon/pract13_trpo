@@ -63,5 +63,10 @@ namespace pract12_trpo.Pages
                 service.Remove(user);
             }
         }
+
+        private void RolesNavigate(object sender, RoutedEventArgs e)
+        {
+            NavigationService.Navigate(new RolesPage());
+        }
     }
 }

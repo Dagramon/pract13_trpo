@@ -11,6 +11,23 @@
            x:Key="ErrorText">
         <Setter Property="Foreground" Value="{StaticResource ValidationErrorForeground}"/>
     </Style>
+    <Style TargetType="DatePicker"
+           BasedOn="{StaticResource MaterialDesignDatePicker}">
+        <Setter Property="Background" Value="{StaticResource TextBoxBackground}"/>
+        <Setter Property="AutomationProperties.Name" Value=""/>
+        <Setter Property="Validation.ErrorTemplate">
+            <Setter.Value>
+                <ControlTemplate>
+                </ControlTemplate>
+            </Setter.Value>
+        </Setter>
+        <Style.Triggers>
+            <Trigger Property="Validation.HasError" Value="True">
+                <Setter Property="Background" Value="{StaticResource ValidationErrorBackground}"/>
+                <Setter Property="BorderBrush" Value="{StaticResource ValidationErrorBorder}"/>
+            </Trigger>
+        </Style.Triggers>
+    </Style>
     <Style TargetType="TextBox"
            BasedOn="{StaticResource MaterialDesignFloatingHintTextBox}">
         <Setter Property="Background" Value="{StaticResource TextBoxBackground}"/>
@@ -25,6 +42,30 @@
             <Trigger Property="Validation.HasError" Value="True">
                 <Setter Property="Background" Value="{StaticResource ValidationErrorBackground}"/>
                 <Setter Property="BorderBrush" Value="{StaticResource ValidationErrorBorder}"/>
+            </Trigger>
+        </Style.Triggers>
+    </Style>
+    <Style TargetType="TextBox"
+           x:Key="BigTextBox"
+           BasedOn="{StaticResource MaterialDesignOutlinedTextBox}">
+        <Setter Property="Height" Value="50"/>
+        <Setter Property="TextWrapping" Value="Wrap"/>
+        <Setter Property="VerticalScrollBarVisibility" Value="Auto"/>
+        <Setter Property="Margin" Value="3.5"/>
+        <Setter Property="Background" Value="{DynamicResource TextBoxBackground}"/>
+        <Setter Property="Foreground" Value="{DynamicResource Foreground}"/>
+        <Setter Property="BorderBrush" Value="{DynamicResource BorderColor}"/>
+        <Setter Property="Validation.ErrorTemplate">
+            <Setter.Value>
+                <ControlTemplate>
+                </ControlTemplate>
+            </Setter.Value>
+        </Setter>
+        <Style.Triggers>
+            <Trigger Property="Validation.HasError" Value="True">
+                <Setter Property="Background" Value="{DynamicResource ValidationErrorBackground}"/>
+                <Setter Property="Foreground" Value="{DynamicResource ValidationErrorText}"/>
+                <Setter Property="BorderBrush" Value="{DynamicResource ValidationErrorBorder}"/>
             </Trigger>
         </Style.Triggers>
     </Style>

@@ -26,8 +26,8 @@ namespace pract12_trpo.Classes
             get => _phone;
             set => SetProperty(ref _phone, value);
         }
-        private long _birthday;
-        public long Birthday
+        private DateTime _birthday;
+        public DateTime Birthday
         {
             get => _birthday;
             set => SetProperty(ref _birthday, value);

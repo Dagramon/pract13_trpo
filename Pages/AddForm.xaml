@@ -5,15 +5,24 @@
       xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
       xmlns:validators="clr-namespace:pract12_trpo.Classes.Validations"
       xmlns:local="clr-namespace:pract12_trpo.Pages"
+      xmlns:service="clr-namespace:pract12_trpo.Data.Service"
       mc:Ignorable="d" 
       d:DesignHeight="450" d:DesignWidth="800"
       Title="AddForm">
+    <Page.Resources>
+        <service:RolesService x:Key="rService"/>
+    </Page.Resources>
+
 
     <Grid>
         <Grid.RowDefinitions>
             <RowDefinition Height="auto"/>
             <RowDefinition Height="*"/>
         </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
         <StackPanel>
             <Button HorizontalAlignment="Left" Click="GoBack">Назад</Button>
         </StackPanel>
@@ -103,7 +112,103 @@
                     </ItemsControl.ItemTemplate>
                 </ItemsControl>
             </StackPanel>
-            <Button Click="Save" Style="{StaticResource GreenButton}">Сохранить</Button>
+            <StackPanel>
+                <Label>Группа</Label>
+                <ComboBox ItemsSource="{Binding Source={StaticResource rService}, Path=Roles}"
+                          DisplayMemberPath="Title"
+                          SelectedItem="{Binding Role}"/>
+            </StackPanel>
         </StackPanel>
+
+        <StackPanel Grid.Row="1" Grid.Column="1" VerticalAlignment="Center" HorizontalAlignment="Center">
+            <CheckBox x:Name="CheckBoxProfile">Включить профиль пользователя</CheckBox>
+            <StackPanel>
+                <Label>Ссылка на аватар</Label>
+                <TextBox x:Name="AvatarUrlTextBox">
+                    <TextBox.Text>
+                        <Binding Path="UserProfile.AvatarUrl" UpdateSourceTrigger="PropertyChanged">
+                            <Binding.ValidationRules>
+                                <validators:StringValidation/>
+                            </Binding.ValidationRules>
+                        </Binding>
+                    </TextBox.Text>
+                </TextBox>
+                <ItemsControl Style="{StaticResource ErrorText}"
+                              ItemsSource="{Binding ElementName=PasswordBox, Path=(Validation.Errors)}"
+                              Width="200">
+                    <ItemsControl.ItemTemplate>
+                        <DataTemplate>
+                            <TextBlock Text="{Binding ErrorContent}" TextWrapping="Wrap"/>
+                        </DataTemplate>
+                    </ItemsControl.ItemTemplate>
+                </ItemsControl>
+            </StackPanel>
+            <StackPanel>
+                <Label>Номер телефона</Label>
+                <TextBox x:Name="PhoneTextBox">
+                    <TextBox.Text>
+                        <Binding Path="UserProfile.Phone" UpdateSourceTrigger="PropertyChanged">
+                            <Binding.ValidationRules>
+                                <validators:PhoneValidation/>
+                            </Binding.ValidationRules>
+                        </Binding>
+                    </TextBox.Text>
+                </TextBox>
+                <ItemsControl Style="{StaticResource ErrorText}"
+                              ItemsSource="{Binding ElementName=PasswordBox, Path=(Validation.Errors)}"
+                              Width="200">
+                    <ItemsControl.ItemTemplate>
+                        <DataTemplate>
+                            <TextBlock Text="{Binding ErrorContent}" TextWrapping="Wrap"/>
+                        </DataTemplate>
+                    </ItemsControl.ItemTemplate>
+                </ItemsControl>
+            </StackPanel>
+            <StackPanel>
+                <Label Content="Дата рождения"/>
+                <DatePicker x:Name="BirthdayPicker">
+                    <DatePicker.SelectedDate>
+                        <Binding Path="UserProfile.Birthday" UpdateSourceTrigger="PropertyChanged">
+                            <Binding.ValidationRules>
+                                <validators:DateValidation/>
+                            </Binding.ValidationRules>
+                        </Binding>
+                    </DatePicker.SelectedDate>
+                </DatePicker>
+                <ItemsControl Style="{StaticResource ErrorText}"
+                                      ItemsSource="{Binding ElementName=BirthdayPicker, Path=(Validation.Errors)}">
+                    <ItemsControl.ItemTemplate>
+                        <DataTemplate>
+                            <TextBlock Text="{Binding ErrorContent}"/>
+                        </DataTemplate>
+                    </ItemsControl.ItemTemplate>
+                </ItemsControl>
+            </StackPanel>
+            <StackPanel>
+                <Label>Краткое описание</Label>
+                <TextBox x:Name="BioTextBox" Style="{StaticResource BigTextBox}">
+                    <TextBox.Text>
+                        <Binding Path="UserProfile.Bio" UpdateSourceTrigger="PropertyChanged">
+                            <Binding.ValidationRules>
+                                <validators:StringValidation/>
+                            </Binding.ValidationRules>
+                        </Binding>
+                    </TextBox.Text>
+                </TextBox>
+                <ItemsControl Style="{StaticResource ErrorText}"
+                              ItemsSource="{Binding ElementName=BioTextBox, Path=(Validation.Errors)}"
+                              Width="200">
+                    <ItemsControl.ItemTemplate>
+                        <DataTemplate>
+                            <TextBlock Text="{Binding ErrorContent}" TextWrapping="Wrap"/>
+                        </DataTemplate>
+                    </ItemsControl.ItemTemplate>
+                </ItemsControl>
+            </StackPanel>
+        </StackPanel>
+        
+        <Button Grid.ColumnSpan="2" Grid.Row="1"
+                VerticalAlignment="Bottom"
+                Click="Save" Style="{StaticResource GreenButton}">Сохранить</Button>
     </Grid>
 </Page>
