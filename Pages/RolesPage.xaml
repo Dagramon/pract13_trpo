@@ -19,7 +19,7 @@
         <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
             <Button HorizontalAlignment="Left" Click="GoBack">Назад</Button>
             <Button HorizontalAlignment="Left" Click="AddRole">Добавить</Button>
-            <Button HorizontalAlignment="Left" Click="AddRole">Удалить</Button>
+            <Button HorizontalAlignment="Left" Click="remove">Удалить</Button>
         </StackPanel>
         <ListView Grid.Row="1"
                   ItemsSource="{Binding service.Roles}"
@@ -46,14 +46,14 @@
                   ItemsSource="{Binding users}">
             <ListView.ItemTemplate>
                 <DataTemplate>
-                    <StackPanel>
-                        <StackPanel>
+                    <StackPanel Orientation="Vertical">
+                        <StackPanel Orientation="Horizontal">
                             <Label>Логин</Label>
-                            <TextBox Text="{Binding Login}"></TextBox>
+                            <TextBlock Text="{Binding Login}"></TextBlock>
                         </StackPanel>
-                        <StackPanel>
+                        <StackPanel Orientation="Horizontal">
                             <Label>Имя пользователя</Label>
-                            <TextBox Text="{Binding UserName}"></TextBox>
+                            <TextBlock Text="{Binding UserName}"></TextBlock>
                         </StackPanel>
                     </StackPanel>
                 </DataTemplate>

@@ -22,6 +22,23 @@ namespace pract12_trpo.Migrations
 
             SqlServerModelBuilderExtensions.UseIdentityColumns(modelBuilder);
 
+            modelBuilder.Entity("pract12_trpo.Classes.Role", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<string>("Title")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("Roles", (string)null);
+                });
+
             modelBuilder.Entity("pract12_trpo.Classes.User", b =>
                 {
                     b.Property<int>("Id")
@@ -45,13 +62,18 @@ namespace pract12_trpo.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
+                    b.Property<int>("RoleId")
+                        .HasColumnType("int");
+
                     b.Property<string>("UserName")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.HasKey("Id");
 
-                    b.ToTable("Users");
+                    b.HasIndex("RoleId");
+
+                    b.ToTable("Users", (string)null);
                 });
 
             modelBuilder.Entity("pract12_trpo.Classes.UserProfile", b =>
@@ -70,8 +92,8 @@ namespace pract12_trpo.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<long>("Birthday")
-                        .HasColumnType("bigint");
+                    b.Property<DateTime>("Birthday")
+                        .HasColumnType("datetime2");
 
                     b.Property<long>("Phone")
                         .HasColumnType("bigint");
@@ -84,7 +106,18 @@ namespace pract12_trpo.Migrations
                     b.HasIndex("UserId")
                         .IsUnique();
 
-                    b.ToTable("UserProfiles");
+                    b.ToTable("UserProfiles", (string)null);
+                });
+
+            modelBuilder.Entity("pract12_trpo.Classes.User", b =>
+                {
+                    b.HasOne("pract12_trpo.Classes.Role", "Role")
+                        .WithMany("Users")
+                        .HasForeignKey("RoleId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Role");
                 });
 
             modelBuilder.Entity("pract12_trpo.Classes.UserProfile", b =>
@@ -98,10 +131,14 @@ namespace pract12_trpo.Migrations
                     b.Navigation("User");
                 });
 
+            modelBuilder.Entity("pract12_trpo.Classes.Role", b =>
+                {
+                    b.Navigation("Users");
+                });
+
             modelBuilder.Entity("pract12_trpo.Classes.User", b =>
                 {
-                    b.Navigation("UserProfile")
-                        .IsRequired();
+                    b.Navigation("UserProfile");
                 });
 #pragma warning restore 612, 618
         }

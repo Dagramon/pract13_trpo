@@ -11,6 +11,9 @@
     <Compile Update="Pages\MainPage.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Update="Pages\ProfilePage.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Update="Pages\RolesPage.xaml.cs">
       <SubType>Code</SubType>
     </Compile>

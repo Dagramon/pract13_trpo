@@ -33,6 +33,12 @@ namespace pract12_trpo.Pages
             {
                 _user = _editUser;
                 isEdit = true;
+                ProfilePanel.IsEnabled = false;
+                CheckBoxProfile.IsEnabled = false;
+            }
+            else
+            {
+                _user.UserProfile = new();
             }
             DataContext = _user;
         }
@@ -50,13 +56,15 @@ namespace pract12_trpo.Pages
             {
                 return false;
             }
-            if (CheckBoxProfile.IsChecked == true &&
-                _user.UserProfile.AvatarUrl == null || _user.UserProfile.AvatarUrl != AvatarUrlTextBox.Text ||
+            if (CheckBoxProfile.IsChecked == true)
+            {
+                if (_user.UserProfile.AvatarUrl == null || _user.UserProfile.AvatarUrl != AvatarUrlTextBox.Text ||
                 _user.UserProfile.Phone.ToString() == null || _user.UserProfile.Phone.ToString() != PhoneTextBox.Text ||
                 _user.UserProfile.Birthday.ToString() == null || _user.UserProfile.Birthday != BirthdayPicker.SelectedDate ||
                 _user.UserProfile.Bio == null || _user.UserProfile.Bio != BioTextBox.Text)
-            {
-                return false;
+                {
+                    return false;
+                }
             }
             return true;
         }
@@ -79,6 +87,17 @@ namespace pract12_trpo.Pages
                 _service.Add(_user);
             }
             NavigationService.GoBack();
+        }
+
+        private void CheckBoxProfile_Checked(object sender, RoutedEventArgs e)
+        {
+            if (CheckBoxProfile.IsChecked == true)
+                _user.UserProfile = new();
+            else
+                _user.UserProfile = null;
+
+            DataContext = _user;
+
         }
     }
 }

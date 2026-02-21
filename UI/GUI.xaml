@@ -11,6 +11,36 @@
            x:Key="ErrorText">
         <Setter Property="Foreground" Value="{StaticResource ValidationErrorForeground}"/>
     </Style>
+    <Style TargetType="CheckBox"
+           BasedOn="{StaticResource MaterialDesignActionDarkToggleButton}">
+        
+    </Style>
+    <Style TargetType="ComboBox"
+           BasedOn="{StaticResource MaterialDesignComboBox}">
+        <Setter Property="Background" Value="{StaticResource TextBoxBackground}"/>
+        <Setter Property="AutomationProperties.Name" Value=""/>
+    </Style>
+    <Style TargetType="Image">
+        <Setter Property="Margin" Value="15"/>
+        <Setter Property="Width" Value="200"/>
+        <Setter Property="Height" Value="200"/>
+    </Style>
+    <Style TargetType="DatePickerTextBox">
+        <Setter Property="Background" Value="{StaticResource TextBoxBackground}"/>
+        <Setter Property="AutomationProperties.Name" Value=""/>
+        <Setter Property="Validation.ErrorTemplate">
+            <Setter.Value>
+                <ControlTemplate>
+                </ControlTemplate>
+            </Setter.Value>
+        </Setter>
+        <Style.Triggers>
+            <Trigger Property="Validation.HasError" Value="True">
+                <Setter Property="Background" Value="{StaticResource ValidationErrorBackground}"/>
+                <Setter Property="BorderBrush" Value="{StaticResource ValidationErrorBorder}"/>
+            </Trigger>
+        </Style.Triggers>
+    </Style>
     <Style TargetType="DatePicker"
            BasedOn="{StaticResource MaterialDesignDatePicker}">
         <Setter Property="Background" Value="{StaticResource TextBoxBackground}"/>
@@ -30,6 +60,7 @@
     </Style>
     <Style TargetType="TextBox"
            BasedOn="{StaticResource MaterialDesignFloatingHintTextBox}">
+        <Setter Property="MaxWidth" Value="200"/>
         <Setter Property="Background" Value="{StaticResource TextBoxBackground}"/>
         <Setter Property="AutomationProperties.Name" Value=""/>
         <Setter Property="Validation.ErrorTemplate">
@@ -48,7 +79,10 @@
     <Style TargetType="TextBox"
            x:Key="BigTextBox"
            BasedOn="{StaticResource MaterialDesignOutlinedTextBox}">
-        <Setter Property="Height" Value="50"/>
+        <Setter Property="MaxLines" Value="3"/>
+        <Setter Property="MaxWidth" Value="200"/>
+        <Setter Property="Height" Value="75"/>
+        <Setter Property="AutomationProperties.Name" Value=""/>
         <Setter Property="TextWrapping" Value="Wrap"/>
         <Setter Property="VerticalScrollBarVisibility" Value="Auto"/>
         <Setter Property="Margin" Value="3.5"/>

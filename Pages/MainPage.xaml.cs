@@ -68,5 +68,20 @@ namespace pract12_trpo.Pages
         {
             NavigationService.Navigate(new RolesPage());
         }
+
+        private void GoProfile_Click(object sender, RoutedEventArgs e)
+        {
+            if (user == null)
+            {
+                MessageBox.Show("Элемент не выбран");
+                return;
+            }
+            if (user.UserProfile == null)
+            {
+                MessageBox.Show("У пользователя нет профиля");
+                return;
+            }
+            NavigationService.Navigate(new ProfilePage(user));
+        }
     }
 }

@@ -60,7 +60,7 @@
                         </Binding>
                     </TextBox.Text>
                 </TextBox>
-                <ItemsControl 
+                <ItemsControl Style="{StaticResource ErrorText}"
                               ItemsSource="{Binding ElementName=UserNameTextBox, Path=(Validation.Errors)}"
                               Width="200">
                     <ItemsControl.ItemTemplate>
@@ -120,8 +120,13 @@
             </StackPanel>
         </StackPanel>
 
-        <StackPanel Grid.Row="1" Grid.Column="1" VerticalAlignment="Center" HorizontalAlignment="Center">
-            <CheckBox x:Name="CheckBoxProfile">Включить профиль пользователя</CheckBox>
+        <StackPanel x:Name="ProfilePanel"
+                    Grid.Row="1"
+                    Grid.Column="1"
+                    VerticalAlignment="Center"
+                    HorizontalAlignment="Center">
+            <Label>Включить профиль пользователя</Label>
+            <CheckBox x:Name="CheckBoxProfile" Checked="CheckBoxProfile_Checked"/>
             <StackPanel>
                 <Label>Ссылка на аватар</Label>
                 <TextBox x:Name="AvatarUrlTextBox">
@@ -134,7 +139,7 @@
                     </TextBox.Text>
                 </TextBox>
                 <ItemsControl Style="{StaticResource ErrorText}"
-                              ItemsSource="{Binding ElementName=PasswordBox, Path=(Validation.Errors)}"
+                              ItemsSource="{Binding ElementName=AvatarUrlTextBox, Path=(Validation.Errors)}"
                               Width="200">
                     <ItemsControl.ItemTemplate>
                         <DataTemplate>
@@ -155,7 +160,7 @@
                     </TextBox.Text>
                 </TextBox>
                 <ItemsControl Style="{StaticResource ErrorText}"
-                              ItemsSource="{Binding ElementName=PasswordBox, Path=(Validation.Errors)}"
+                              ItemsSource="{Binding ElementName=PhoneTextBox, Path=(Validation.Errors)}"
                               Width="200">
                     <ItemsControl.ItemTemplate>
                         <DataTemplate>

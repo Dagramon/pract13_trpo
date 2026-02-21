@@ -1,57 +1,105 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Damir\\source\\repos\\pract13_trpo\\",
+  "WorkspaceRootPath": "C:\\Users\\st310-10\\Documents\\\u041A\u0430\u0440\u0430\u043C\u043E\u0432\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{193CDB7D-ADD4-4BD1-BA64-5BD8BAF835F2}|pract12_trpo.csproj|c:\\users\\damir\\source\\repos\\pract13_trpo\\data\\service\\usersservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{193CDB7D-ADD4-4BD1-BA64-5BD8BAF835F2}|pract12_trpo.csproj|solutionrelative:data\\service\\usersservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{193CDB7D-ADD4-4BD1-BA64-5BD8BAF835F2}|pract12_trpo.csproj|c:\\users\\st310-10\\documents\\\u043A\u0430\u0440\u0430\u043C\u043E\u0432\\pages\\profilepage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{193CDB7D-ADD4-4BD1-BA64-5BD8BAF835F2}|pract12_trpo.csproj|solutionrelative:pages\\profilepage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{193CDB7D-ADD4-4BD1-BA64-5BD8BAF835F2}|pract12_trpo.csproj|c:\\users\\damir\\source\\repos\\pract13_trpo\\pages\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{193CDB7D-ADD4-4BD1-BA64-5BD8BAF835F2}|pract12_trpo.csproj|solutionrelative:pages\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{193CDB7D-ADD4-4BD1-BA64-5BD8BAF835F2}|pract12_trpo.csproj|c:\\users\\st310-10\\documents\\\u043A\u0430\u0440\u0430\u043C\u043E\u0432\\pages\\addform.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{193CDB7D-ADD4-4BD1-BA64-5BD8BAF835F2}|pract12_trpo.csproj|solutionrelative:pages\\addform.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{193CDB7D-ADD4-4BD1-BA64-5BD8BAF835F2}|pract12_trpo.csproj|c:\\users\\damir\\source\\repos\\pract13_trpo\\pages\\rolespage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{193CDB7D-ADD4-4BD1-BA64-5BD8BAF835F2}|pract12_trpo.csproj|solutionrelative:pages\\rolespage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{193CDB7D-ADD4-4BD1-BA64-5BD8BAF835F2}|pract12_trpo.csproj|c:\\users\\damir\\source\\repos\\pract13_trpo\\pages\\addrolepage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{193CDB7D-ADD4-4BD1-BA64-5BD8BAF835F2}|pract12_trpo.csproj|solutionrelative:pages\\addrolepage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{193CDB7D-ADD4-4BD1-BA64-5BD8BAF835F2}|pract12_trpo.csproj|c:\\users\\damir\\source\\repos\\pract13_trpo\\pages\\rolespage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{193CDB7D-ADD4-4BD1-BA64-5BD8BAF835F2}|pract12_trpo.csproj|solutionrelative:pages\\rolespage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{193CDB7D-ADD4-4BD1-BA64-5BD8BAF835F2}|pract12_trpo.csproj|c:\\users\\damir\\source\\repos\\pract13_trpo\\data\\service\\rolesservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{193CDB7D-ADD4-4BD1-BA64-5BD8BAF835F2}|pract12_trpo.csproj|solutionrelative:data\\service\\rolesservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{193CDB7D-ADD4-4BD1-BA64-5BD8BAF835F2}|pract12_trpo.csproj|c:\\users\\damir\\source\\repos\\pract13_trpo\\pages\\addrolepage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{193CDB7D-ADD4-4BD1-BA64-5BD8BAF835F2}|pract12_trpo.csproj|solutionrelative:pages\\addrolepage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{193CDB7D-ADD4-4BD1-BA64-5BD8BAF835F2}|pract12_trpo.csproj|c:\\users\\damir\\source\\repos\\pract13_trpo\\classes\\observableobject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{193CDB7D-ADD4-4BD1-BA64-5BD8BAF835F2}|pract12_trpo.csproj|solutionrelative:classes\\observableobject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{193CDB7D-ADD4-4BD1-BA64-5BD8BAF835F2}|pract12_trpo.csproj|c:\\users\\damir\\source\\repos\\pract13_trpo\\pages\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{193CDB7D-ADD4-4BD1-BA64-5BD8BAF835F2}|pract12_trpo.csproj|c:\\users\\st310-10\\documents\\\u043A\u0430\u0440\u0430\u043C\u043E\u0432\\pages\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{193CDB7D-ADD4-4BD1-BA64-5BD8BAF835F2}|pract12_trpo.csproj|solutionrelative:pages\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{193CDB7D-ADD4-4BD1-BA64-5BD8BAF835F2}|pract12_trpo.csproj|c:\\users\\damir\\source\\repos\\pract13_trpo\\classes\\userprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{193CDB7D-ADD4-4BD1-BA64-5BD8BAF835F2}|pract12_trpo.csproj|c:\\users\\st310-10\\documents\\\u043A\u0430\u0440\u0430\u043C\u043E\u0432\\ui\\gui.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{193CDB7D-ADD4-4BD1-BA64-5BD8BAF835F2}|pract12_trpo.csproj|solutionrelative:ui\\gui.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{193CDB7D-ADD4-4BD1-BA64-5BD8BAF835F2}|pract12_trpo.csproj|c:\\users\\st310-10\\documents\\\u043A\u0430\u0440\u0430\u043C\u043E\u0432\\pages\\profilepage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{193CDB7D-ADD4-4BD1-BA64-5BD8BAF835F2}|pract12_trpo.csproj|solutionrelative:pages\\profilepage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{193CDB7D-ADD4-4BD1-BA64-5BD8BAF835F2}|pract12_trpo.csproj|c:\\users\\st310-10\\documents\\\u043A\u0430\u0440\u0430\u043C\u043E\u0432\\styles\\colors\\default.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{193CDB7D-ADD4-4BD1-BA64-5BD8BAF835F2}|pract12_trpo.csproj|solutionrelative:styles\\colors\\default.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{193CDB7D-ADD4-4BD1-BA64-5BD8BAF835F2}|pract12_trpo.csproj|c:\\users\\st310-10\\documents\\\u043A\u0430\u0440\u0430\u043C\u043E\u0432\\ui\\buttons.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{193CDB7D-ADD4-4BD1-BA64-5BD8BAF835F2}|pract12_trpo.csproj|solutionrelative:ui\\buttons.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{193CDB7D-ADD4-4BD1-BA64-5BD8BAF835F2}|pract12_trpo.csproj|c:\\users\\st310-10\\documents\\\u043A\u0430\u0440\u0430\u043C\u043E\u0432\\pages\\rolespage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{193CDB7D-ADD4-4BD1-BA64-5BD8BAF835F2}|pract12_trpo.csproj|solutionrelative:pages\\rolespage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{193CDB7D-ADD4-4BD1-BA64-5BD8BAF835F2}|pract12_trpo.csproj|c:\\users\\st310-10\\documents\\\u043A\u0430\u0440\u0430\u043C\u043E\u0432\\pages\\rolespage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{193CDB7D-ADD4-4BD1-BA64-5BD8BAF835F2}|pract12_trpo.csproj|solutionrelative:pages\\rolespage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{193CDB7D-ADD4-4BD1-BA64-5BD8BAF835F2}|pract12_trpo.csproj|c:\\users\\st310-10\\documents\\\u043A\u0430\u0440\u0430\u043C\u043E\u0432\\data\\service\\rolesservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{193CDB7D-ADD4-4BD1-BA64-5BD8BAF835F2}|pract12_trpo.csproj|solutionrelative:data\\service\\rolesservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{193CDB7D-ADD4-4BD1-BA64-5BD8BAF835F2}|pract12_trpo.csproj|c:\\users\\st310-10\\documents\\\u043A\u0430\u0440\u0430\u043C\u043E\u0432\\pages\\addform.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{193CDB7D-ADD4-4BD1-BA64-5BD8BAF835F2}|pract12_trpo.csproj|solutionrelative:pages\\addform.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{193CDB7D-ADD4-4BD1-BA64-5BD8BAF835F2}|pract12_trpo.csproj|c:\\users\\st310-10\\documents\\\u043A\u0430\u0440\u0430\u043C\u043E\u0432\\classes\\userprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{193CDB7D-ADD4-4BD1-BA64-5BD8BAF835F2}|pract12_trpo.csproj|solutionrelative:classes\\userprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{193CDB7D-ADD4-4BD1-BA64-5BD8BAF835F2}|pract12_trpo.csproj|c:\\users\\damir\\source\\repos\\pract13_trpo\\classes\\validations\\stringvalidation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{193CDB7D-ADD4-4BD1-BA64-5BD8BAF835F2}|pract12_trpo.csproj|c:\\users\\st310-10\\documents\\\u043A\u0430\u0440\u0430\u043C\u043E\u0432\\pages\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{193CDB7D-ADD4-4BD1-BA64-5BD8BAF835F2}|pract12_trpo.csproj|solutionrelative:pages\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{193CDB7D-ADD4-4BD1-BA64-5BD8BAF835F2}|pract12_trpo.csproj|c:\\users\\st310-10\\documents\\\u043A\u0430\u0440\u0430\u043C\u043E\u0432\\pages\\addrolepage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{193CDB7D-ADD4-4BD1-BA64-5BD8BAF835F2}|pract12_trpo.csproj|solutionrelative:pages\\addrolepage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{193CDB7D-ADD4-4BD1-BA64-5BD8BAF835F2}|pract12_trpo.csproj|c:\\users\\st310-10\\documents\\\u043A\u0430\u0440\u0430\u043C\u043E\u0432\\data\\service\\usersservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{193CDB7D-ADD4-4BD1-BA64-5BD8BAF835F2}|pract12_trpo.csproj|solutionrelative:data\\service\\usersservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{193CDB7D-ADD4-4BD1-BA64-5BD8BAF835F2}|pract12_trpo.csproj|c:\\users\\st310-10\\documents\\\u043A\u0430\u0440\u0430\u043C\u043E\u0432\\pages\\addrolepage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{193CDB7D-ADD4-4BD1-BA64-5BD8BAF835F2}|pract12_trpo.csproj|solutionrelative:pages\\addrolepage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{193CDB7D-ADD4-4BD1-BA64-5BD8BAF835F2}|pract12_trpo.csproj|c:\\users\\st310-10\\documents\\\u043A\u0430\u0440\u0430\u043C\u043E\u0432\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{193CDB7D-ADD4-4BD1-BA64-5BD8BAF835F2}|pract12_trpo.csproj|solutionrelative:data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{193CDB7D-ADD4-4BD1-BA64-5BD8BAF835F2}|pract12_trpo.csproj|c:\\users\\st310-10\\documents\\\u043A\u0430\u0440\u0430\u043C\u043E\u0432\\classes\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{193CDB7D-ADD4-4BD1-BA64-5BD8BAF835F2}|pract12_trpo.csproj|solutionrelative:classes\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{193CDB7D-ADD4-4BD1-BA64-5BD8BAF835F2}|pract12_trpo.csproj|c:\\users\\st310-10\\documents\\\u043A\u0430\u0440\u0430\u043C\u043E\u0432\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{193CDB7D-ADD4-4BD1-BA64-5BD8BAF835F2}|pract12_trpo.csproj|solutionrelative:app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{193CDB7D-ADD4-4BD1-BA64-5BD8BAF835F2}|pract12_trpo.csproj|c:\\users\\st310-10\\documents\\\u043A\u0430\u0440\u0430\u043C\u043E\u0432\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{193CDB7D-ADD4-4BD1-BA64-5BD8BAF835F2}|pract12_trpo.csproj|solutionrelative:mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{193CDB7D-ADD4-4BD1-BA64-5BD8BAF835F2}|pract12_trpo.csproj|c:\\users\\st310-10\\documents\\\u043A\u0430\u0440\u0430\u043C\u043E\u0432\\migrations\\20260221033356_addedroles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{193CDB7D-ADD4-4BD1-BA64-5BD8BAF835F2}|pract12_trpo.csproj|solutionrelative:migrations\\20260221033356_addedroles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{193CDB7D-ADD4-4BD1-BA64-5BD8BAF835F2}|pract12_trpo.csproj|c:\\users\\st310-10\\documents\\\u043A\u0430\u0440\u0430\u043C\u043E\u0432\\classes\\observableobject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{193CDB7D-ADD4-4BD1-BA64-5BD8BAF835F2}|pract12_trpo.csproj|solutionrelative:classes\\observableobject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{193CDB7D-ADD4-4BD1-BA64-5BD8BAF835F2}|pract12_trpo.csproj|c:\\users\\st310-10\\documents\\\u043A\u0430\u0440\u0430\u043C\u043E\u0432\\classes\\validations\\stringvalidation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{193CDB7D-ADD4-4BD1-BA64-5BD8BAF835F2}|pract12_trpo.csproj|solutionrelative:classes\\validations\\stringvalidation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{193CDB7D-ADD4-4BD1-BA64-5BD8BAF835F2}|pract12_trpo.csproj|c:\\users\\damir\\source\\repos\\pract13_trpo\\classes\\validations\\phonevalidation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{193CDB7D-ADD4-4BD1-BA64-5BD8BAF835F2}|pract12_trpo.csproj|c:\\users\\st310-10\\documents\\\u043A\u0430\u0440\u0430\u043C\u043E\u0432\\classes\\validations\\phonevalidation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{193CDB7D-ADD4-4BD1-BA64-5BD8BAF835F2}|pract12_trpo.csproj|solutionrelative:classes\\validations\\phonevalidation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{193CDB7D-ADD4-4BD1-BA64-5BD8BAF835F2}|pract12_trpo.csproj|c:\\users\\damir\\source\\repos\\pract13_trpo\\classes\\role.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{193CDB7D-ADD4-4BD1-BA64-5BD8BAF835F2}|pract12_trpo.csproj|c:\\users\\st310-10\\documents\\\u043A\u0430\u0440\u0430\u043C\u043E\u0432\\classes\\role.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{193CDB7D-ADD4-4BD1-BA64-5BD8BAF835F2}|pract12_trpo.csproj|solutionrelative:classes\\role.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -62,91 +110,52 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "AddRolePage.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\Damir\\source\\repos\\pract13_trpo\\Pages\\AddRolePage.xaml.cs",
-              "RelativeDocumentMoniker": "Pages\\AddRolePage.xaml.cs",
-              "ToolTip": "C:\\Users\\Damir\\source\\repos\\pract13_trpo\\Pages\\AddRolePage.xaml.cs",
-              "RelativeToolTip": "Pages\\AddRolePage.xaml.cs",
-              "ViewState": "AgIAABwAAAAAAAAAAAAowCUAAAAgAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-19T15:46:14.542Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "RolesPage.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\Damir\\source\\repos\\pract13_trpo\\Pages\\RolesPage.xaml.cs",
-              "RelativeDocumentMoniker": "Pages\\RolesPage.xaml.cs",
-              "ToolTip": "C:\\Users\\Damir\\source\\repos\\pract13_trpo\\Pages\\RolesPage.xaml.cs",
-              "RelativeToolTip": "Pages\\RolesPage.xaml.cs",
-              "ViewState": "AgIAAD4AAAAAAAAAAAAwwFEAAAAkAAAAAAAAAA==",
+              "Title": "MainPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\st310-10\\Documents\\\u041A\u0430\u0440\u0430\u043C\u043E\u0432\\Pages\\MainPage.xaml.cs",
+              "RelativeDocumentMoniker": "Pages\\MainPage.xaml.cs",
+              "ToolTip": "C:\\Users\\st310-10\\Documents\\\u041A\u0430\u0440\u0430\u043C\u043E\u0432\\Pages\\MainPage.xaml.cs",
+              "RelativeToolTip": "Pages\\MainPage.xaml.cs",
+              "ViewState": "AgIAABwAAAAAAAAAAAAAAFAAAAAnAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-19T15:41:58.447Z",
+              "WhenOpened": "2026-02-19T15:40:02.473Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "UsersService.cs",
-              "DocumentMoniker": "C:\\Users\\Damir\\source\\repos\\pract13_trpo\\Data\\Service\\UsersService.cs",
-              "RelativeDocumentMoniker": "Data\\Service\\UsersService.cs",
-              "ToolTip": "C:\\Users\\Damir\\source\\repos\\pract13_trpo\\Data\\Service\\UsersService.cs",
-              "RelativeToolTip": "Data\\Service\\UsersService.cs",
-              "ViewState": "AgIAABoAAAAAAAAAAAAlwCgAAAAMAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-19T16:04:48.347Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "MainPage.xaml",
-              "DocumentMoniker": "C:\\Users\\Damir\\source\\repos\\pract13_trpo\\Pages\\MainPage.xaml",
-              "RelativeDocumentMoniker": "Pages\\MainPage.xaml",
-              "ToolTip": "C:\\Users\\Damir\\source\\repos\\pract13_trpo\\Pages\\MainPage.xaml",
-              "RelativeToolTip": "Pages\\MainPage.xaml",
+              "DocumentIndex": 10,
+              "Title": "AddForm.xaml",
+              "DocumentMoniker": "C:\\Users\\st310-10\\Documents\\\u041A\u0430\u0440\u0430\u043C\u043E\u0432\\Pages\\AddForm.xaml",
+              "RelativeDocumentMoniker": "Pages\\AddForm.xaml",
+              "ToolTip": "C:\\Users\\st310-10\\Documents\\\u041A\u0430\u0440\u0430\u043C\u043E\u0432\\Pages\\AddForm.xaml",
+              "RelativeToolTip": "Pages\\AddForm.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2026-02-19T12:41:07.359Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "RolesPage.xaml",
-              "DocumentMoniker": "C:\\Users\\Damir\\source\\repos\\pract13_trpo\\Pages\\RolesPage.xaml",
-              "RelativeDocumentMoniker": "Pages\\RolesPage.xaml",
-              "ToolTip": "C:\\Users\\Damir\\source\\repos\\pract13_trpo\\Pages\\RolesPage.xaml",
-              "RelativeToolTip": "Pages\\RolesPage.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2026-02-19T14:08:32.673Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "RolesService.cs",
-              "DocumentMoniker": "C:\\Users\\Damir\\source\\repos\\pract13_trpo\\Data\\Service\\RolesService.cs",
-              "RelativeDocumentMoniker": "Data\\Service\\RolesService.cs",
-              "ToolTip": "C:\\Users\\Damir\\source\\repos\\pract13_trpo\\Data\\Service\\RolesService.cs",
-              "RelativeToolTip": "Data\\Service\\RolesService.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-19T16:04:30.266Z",
+              "WhenOpened": "2026-02-21T03:48:38.722Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 6,
+              "Title": "Buttons.xaml",
+              "DocumentMoniker": "C:\\Users\\st310-10\\Documents\\\u041A\u0430\u0440\u0430\u043C\u043E\u0432\\UI\\Buttons.xaml",
+              "RelativeDocumentMoniker": "UI\\Buttons.xaml",
+              "ToolTip": "C:\\Users\\st310-10\\Documents\\\u041A\u0430\u0440\u0430\u043C\u043E\u0432\\UI\\Buttons.xaml",
+              "RelativeToolTip": "UI\\Buttons.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-02-21T03:50:21.105Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
               "Title": "AddRolePage.xaml",
-              "DocumentMoniker": "C:\\Users\\Damir\\source\\repos\\pract13_trpo\\Pages\\AddRolePage.xaml",
+              "DocumentMoniker": "C:\\Users\\st310-10\\Documents\\\u041A\u0430\u0440\u0430\u043C\u043E\u0432\\Pages\\AddRolePage.xaml",
               "RelativeDocumentMoniker": "Pages\\AddRolePage.xaml",
-              "ToolTip": "C:\\Users\\Damir\\source\\repos\\pract13_trpo\\Pages\\AddRolePage.xaml",
+              "ToolTip": "C:\\Users\\st310-10\\Documents\\\u041A\u0430\u0440\u0430\u043C\u043E\u0432\\Pages\\AddRolePage.xaml",
               "RelativeToolTip": "Pages\\AddRolePage.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2026-02-19T15:46:06.529Z",
@@ -154,11 +163,225 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "UsersService.cs",
+              "DocumentMoniker": "C:\\Users\\st310-10\\Documents\\\u041A\u0430\u0440\u0430\u043C\u043E\u0432\\Data\\Service\\UsersService.cs",
+              "RelativeDocumentMoniker": "Data\\Service\\UsersService.cs",
+              "ToolTip": "C:\\Users\\st310-10\\Documents\\\u041A\u0430\u0440\u0430\u043C\u043E\u0432\\Data\\Service\\UsersService.cs",
+              "RelativeToolTip": "Data\\Service\\UsersService.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAAgwCUAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-19T16:04:48.347Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "RolesService.cs",
+              "DocumentMoniker": "C:\\Users\\st310-10\\Documents\\\u041A\u0430\u0440\u0430\u043C\u043E\u0432\\Data\\Service\\RolesService.cs",
+              "RelativeDocumentMoniker": "Data\\Service\\RolesService.cs",
+              "ToolTip": "C:\\Users\\st310-10\\Documents\\\u041A\u0430\u0440\u0430\u043C\u043E\u0432\\Data\\Service\\RolesService.cs",
+              "RelativeToolTip": "Data\\Service\\RolesService.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAA3wBgAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-19T16:04:30.266Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "RolesPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\st310-10\\Documents\\\u041A\u0430\u0440\u0430\u043C\u043E\u0432\\Pages\\RolesPage.xaml.cs",
+              "RelativeDocumentMoniker": "Pages\\RolesPage.xaml.cs",
+              "ToolTip": "C:\\Users\\st310-10\\Documents\\\u041A\u0430\u0440\u0430\u043C\u043E\u0432\\Pages\\RolesPage.xaml.cs",
+              "RelativeToolTip": "Pages\\RolesPage.xaml.cs",
+              "ViewState": "AgIAACYAAAAAAAAAAAAkwFEAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-19T15:41:58.447Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ProfilePage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\st310-10\\Documents\\\u041A\u0430\u0440\u0430\u043C\u043E\u0432\\Pages\\ProfilePage.xaml.cs",
+              "RelativeDocumentMoniker": "Pages\\ProfilePage.xaml.cs",
+              "ToolTip": "C:\\Users\\st310-10\\Documents\\\u041A\u0430\u0440\u0430\u043C\u043E\u0432\\Pages\\ProfilePage.xaml.cs",
+              "RelativeToolTip": "Pages\\ProfilePage.xaml.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAA3wCUAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-21T04:33:02.979Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "GUI.xaml",
+              "DocumentMoniker": "C:\\Users\\st310-10\\Documents\\\u041A\u0430\u0440\u0430\u043C\u043E\u0432\\UI\\GUI.xaml",
+              "RelativeDocumentMoniker": "UI\\GUI.xaml",
+              "ToolTip": "C:\\Users\\st310-10\\Documents\\\u041A\u0430\u0440\u0430\u043C\u043E\u0432\\UI\\GUI.xaml",
+              "RelativeToolTip": "UI\\GUI.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-02-21T03:50:11.153Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Default.xaml",
+              "DocumentMoniker": "C:\\Users\\st310-10\\Documents\\\u041A\u0430\u0440\u0430\u043C\u043E\u0432\\Styles\\Colors\\Default.xaml",
+              "RelativeDocumentMoniker": "Styles\\Colors\\Default.xaml",
+              "ToolTip": "C:\\Users\\st310-10\\Documents\\\u041A\u0430\u0440\u0430\u043C\u043E\u0432\\Styles\\Colors\\Default.xaml",
+              "RelativeToolTip": "Styles\\Colors\\Default.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-02-21T03:50:30.636Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 7,
+              "Title": "RolesPage.xaml",
+              "DocumentMoniker": "C:\\Users\\st310-10\\Documents\\\u041A\u0430\u0440\u0430\u043C\u043E\u0432\\Pages\\RolesPage.xaml",
+              "RelativeDocumentMoniker": "Pages\\RolesPage.xaml",
+              "ToolTip": "C:\\Users\\st310-10\\Documents\\\u041A\u0430\u0440\u0430\u043C\u043E\u0432\\Pages\\RolesPage.xaml",
+              "RelativeToolTip": "Pages\\RolesPage.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-02-19T14:08:32.673Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AddForm.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\st310-10\\Documents\\\u041A\u0430\u0440\u0430\u043C\u043E\u0432\\Pages\\AddForm.xaml.cs",
+              "RelativeDocumentMoniker": "Pages\\AddForm.xaml.cs",
+              "ToolTip": "C:\\Users\\st310-10\\Documents\\\u041A\u0430\u0440\u0430\u043C\u043E\u0432\\Pages\\AddForm.xaml.cs",
+              "RelativeToolTip": "Pages\\AddForm.xaml.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAuwGEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-21T03:55:13.455Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ProfilePage.xaml",
+              "DocumentMoniker": "C:\\Users\\st310-10\\Documents\\\u041A\u0430\u0440\u0430\u043C\u043E\u0432\\Pages\\ProfilePage.xaml",
+              "RelativeDocumentMoniker": "Pages\\ProfilePage.xaml",
+              "ToolTip": "C:\\Users\\st310-10\\Documents\\\u041A\u0430\u0440\u0430\u043C\u043E\u0432\\Pages\\ProfilePage.xaml",
+              "RelativeToolTip": "Pages\\ProfilePage.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-02-21T04:31:49.799Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "MainPage.xaml",
+              "DocumentMoniker": "C:\\Users\\st310-10\\Documents\\\u041A\u0430\u0440\u0430\u043C\u043E\u0432\\Pages\\MainPage.xaml",
+              "RelativeDocumentMoniker": "Pages\\MainPage.xaml",
+              "ToolTip": "C:\\Users\\st310-10\\Documents\\\u041A\u0430\u0440\u0430\u043C\u043E\u0432\\Pages\\MainPage.xaml",
+              "RelativeToolTip": "Pages\\MainPage.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-02-19T12:41:07.359Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "20260221033356_AddedRoles.cs",
+              "DocumentMoniker": "C:\\Users\\st310-10\\Documents\\\u041A\u0430\u0440\u0430\u043C\u043E\u0432\\Migrations\\20260221033356_AddedRoles.cs",
+              "RelativeDocumentMoniker": "Migrations\\20260221033356_AddedRoles.cs",
+              "ToolTip": "C:\\Users\\st310-10\\Documents\\\u041A\u0430\u0440\u0430\u043C\u043E\u0432\\Migrations\\20260221033356_AddedRoles.cs",
+              "RelativeToolTip": "Migrations\\20260221033356_AddedRoles.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAmwBIAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-21T03:33:57.088Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\st310-10\\Documents\\\u041A\u0430\u0440\u0430\u043C\u043E\u0432\\Classes\\User.cs",
+              "RelativeDocumentMoniker": "Classes\\User.cs",
+              "ToolTip": "C:\\Users\\st310-10\\Documents\\\u041A\u0430\u0440\u0430\u043C\u043E\u0432\\Classes\\User.cs",
+              "RelativeToolTip": "Classes\\User.cs",
+              "ViewState": "AgIAACAAAAAAAAAAAAAhwCkAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-21T03:43:33.604Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "UserProfile.cs",
+              "DocumentMoniker": "C:\\Users\\st310-10\\Documents\\\u041A\u0430\u0440\u0430\u043C\u043E\u0432\\Classes\\UserProfile.cs",
+              "RelativeDocumentMoniker": "Classes\\UserProfile.cs",
+              "ToolTip": "C:\\Users\\st310-10\\Documents\\\u041A\u0430\u0440\u0430\u043C\u043E\u0432\\Classes\\UserProfile.cs",
+              "RelativeToolTip": "Classes\\UserProfile.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAB0AAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-07T06:42:46.298Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "AddRolePage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\st310-10\\Documents\\\u041A\u0430\u0440\u0430\u043C\u043E\u0432\\Pages\\AddRolePage.xaml.cs",
+              "RelativeDocumentMoniker": "Pages\\AddRolePage.xaml.cs",
+              "ToolTip": "C:\\Users\\st310-10\\Documents\\\u041A\u0430\u0440\u0430\u043C\u043E\u0432\\Pages\\AddRolePage.xaml.cs",
+              "RelativeToolTip": "Pages\\AddRolePage.xaml.cs",
+              "ViewState": "AgIAABwAAAAAAAAAAAA7wCUAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-19T15:46:14.542Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\st310-10\\Documents\\\u041A\u0430\u0440\u0430\u043C\u043E\u0432\\Data\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "Data\\AppDbContext.cs",
+              "ToolTip": "C:\\Users\\st310-10\\Documents\\\u041A\u0430\u0440\u0430\u043C\u043E\u0432\\Data\\AppDbContext.cs",
+              "RelativeToolTip": "Data\\AppDbContext.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAswBwAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-21T03:30:48.634Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "App.xaml",
+              "DocumentMoniker": "C:\\Users\\st310-10\\Documents\\\u041A\u0430\u0440\u0430\u043C\u043E\u0432\\App.xaml",
+              "RelativeDocumentMoniker": "App.xaml",
+              "ToolTip": "C:\\Users\\st310-10\\Documents\\\u041A\u0430\u0440\u0430\u043C\u043E\u0432\\App.xaml",
+              "RelativeToolTip": "App.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-02-21T03:49:58.815Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\st310-10\\Documents\\\u041A\u0430\u0440\u0430\u043C\u043E\u0432\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "MainWindow.xaml",
+              "ToolTip": "C:\\Users\\st310-10\\Documents\\\u041A\u0430\u0440\u0430\u043C\u043E\u0432\\MainWindow.xaml",
+              "RelativeToolTip": "MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-02-21T03:50:37.245Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
               "Title": "ObservableObject.cs",
-              "DocumentMoniker": "C:\\Users\\Damir\\source\\repos\\pract13_trpo\\Classes\\ObservableObject.cs",
+              "DocumentMoniker": "C:\\Users\\st310-10\\Documents\\\u041A\u0430\u0440\u0430\u043C\u043E\u0432\\Classes\\ObservableObject.cs",
               "RelativeDocumentMoniker": "Classes\\ObservableObject.cs",
-              "ToolTip": "C:\\Users\\Damir\\source\\repos\\pract13_trpo\\Classes\\ObservableObject.cs",
+              "ToolTip": "C:\\Users\\st310-10\\Documents\\\u041A\u0430\u0440\u0430\u043C\u043E\u0432\\Classes\\ObservableObject.cs",
               "RelativeToolTip": "Classes\\ObservableObject.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAABlAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -166,23 +389,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "MainPage.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\Damir\\source\\repos\\pract13_trpo\\Pages\\MainPage.xaml.cs",
-              "RelativeDocumentMoniker": "Pages\\MainPage.xaml.cs",
-              "ToolTip": "C:\\Users\\Damir\\source\\repos\\pract13_trpo\\Pages\\MainPage.xaml.cs",
-              "RelativeToolTip": "Pages\\MainPage.xaml.cs",
-              "ViewState": "AgIAAB4AAAAAAAAAAAAmwDoAAAAmAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-19T15:40:02.473Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 24,
               "Title": "Role.cs",
-              "DocumentMoniker": "C:\\Users\\Damir\\source\\repos\\pract13_trpo\\Classes\\Role.cs",
+              "DocumentMoniker": "C:\\Users\\st310-10\\Documents\\\u041A\u0430\u0440\u0430\u043C\u043E\u0432\\Classes\\Role.cs",
               "RelativeDocumentMoniker": "Classes\\Role.cs",
-              "ToolTip": "C:\\Users\\Damir\\source\\repos\\pract13_trpo\\Classes\\Role.cs",
+              "ToolTip": "C:\\Users\\st310-10\\Documents\\\u041A\u0430\u0440\u0430\u043C\u043E\u0432\\Classes\\Role.cs",
               "RelativeToolTip": "Classes\\Role.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -190,11 +401,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 22,
               "Title": "StringValidation.cs",
-              "DocumentMoniker": "C:\\Users\\Damir\\source\\repos\\pract13_trpo\\Classes\\Validations\\StringValidation.cs",
+              "DocumentMoniker": "C:\\Users\\st310-10\\Documents\\\u041A\u0430\u0440\u0430\u043C\u043E\u0432\\Classes\\Validations\\StringValidation.cs",
               "RelativeDocumentMoniker": "Classes\\Validations\\StringValidation.cs",
-              "ToolTip": "C:\\Users\\Damir\\source\\repos\\pract13_trpo\\Classes\\Validations\\StringValidation.cs",
+              "ToolTip": "C:\\Users\\st310-10\\Documents\\\u041A\u0430\u0440\u0430\u043C\u043E\u0432\\Classes\\Validations\\StringValidation.cs",
               "RelativeToolTip": "Classes\\Validations\\StringValidation.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -202,27 +413,15 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 23,
               "Title": "PhoneValidation.cs",
-              "DocumentMoniker": "C:\\Users\\Damir\\source\\repos\\pract13_trpo\\Classes\\Validations\\PhoneValidation.cs",
+              "DocumentMoniker": "C:\\Users\\st310-10\\Documents\\\u041A\u0430\u0440\u0430\u043C\u043E\u0432\\Classes\\Validations\\PhoneValidation.cs",
               "RelativeDocumentMoniker": "Classes\\Validations\\PhoneValidation.cs",
-              "ToolTip": "C:\\Users\\Damir\\source\\repos\\pract13_trpo\\Classes\\Validations\\PhoneValidation.cs",
+              "ToolTip": "C:\\Users\\st310-10\\Documents\\\u041A\u0430\u0440\u0430\u043C\u043E\u0432\\Classes\\Validations\\PhoneValidation.cs",
               "RelativeToolTip": "Classes\\Validations\\PhoneValidation.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-02-19T12:54:50.401Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "UserProfile.cs",
-              "DocumentMoniker": "C:\\Users\\Damir\\source\\repos\\pract13_trpo\\Classes\\UserProfile.cs",
-              "RelativeDocumentMoniker": "Classes\\UserProfile.cs",
-              "ToolTip": "C:\\Users\\Damir\\source\\repos\\pract13_trpo\\Classes\\UserProfile.cs",
-              "RelativeToolTip": "Classes\\UserProfile.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAB0AAAAXAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-07T06:42:46.298Z"
             }
           ]
         }
