@@ -10,7 +10,7 @@
 
     <Grid>
         <StackPanel>
-            <StackPanel>
+            <StackPanel HorizontalAlignment="Center">
                 <Label>Название Роли</Label>
                 <TextBox Text="{Binding Title}"/>
             </StackPanel>

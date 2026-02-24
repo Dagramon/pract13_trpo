@@ -3,20 +3,36 @@
   "WorkspaceRootPath": "C:\\Users\\st310-10\\Documents\\\u041A\u0430\u0440\u0430\u043C\u043E\u0432\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{193CDB7D-ADD4-4BD1-BA64-5BD8BAF835F2}|pract12_trpo.csproj|c:\\users\\st310-10\\documents\\\u043A\u0430\u0440\u0430\u043C\u043E\u0432\\pages\\profilepage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{193CDB7D-ADD4-4BD1-BA64-5BD8BAF835F2}|pract12_trpo.csproj|solutionrelative:pages\\profilepage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{193CDB7D-ADD4-4BD1-BA64-5BD8BAF835F2}|pract12_trpo.csproj|c:\\users\\st310-10\\documents\\\u043A\u0430\u0440\u0430\u043C\u043E\u0432\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{193CDB7D-ADD4-4BD1-BA64-5BD8BAF835F2}|pract12_trpo.csproj|solutionrelative:data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{193CDB7D-ADD4-4BD1-BA64-5BD8BAF835F2}|pract12_trpo.csproj|c:\\users\\st310-10\\documents\\\u043A\u0430\u0440\u0430\u043C\u043E\u0432\\pages\\addform.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{193CDB7D-ADD4-4BD1-BA64-5BD8BAF835F2}|pract12_trpo.csproj|solutionrelative:pages\\addform.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{193CDB7D-ADD4-4BD1-BA64-5BD8BAF835F2}|pract12_trpo.csproj|c:\\users\\st310-10\\documents\\\u043A\u0430\u0440\u0430\u043C\u043E\u0432\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{193CDB7D-ADD4-4BD1-BA64-5BD8BAF835F2}|pract12_trpo.csproj|solutionrelative:app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{193CDB7D-ADD4-4BD1-BA64-5BD8BAF835F2}|pract12_trpo.csproj|c:\\users\\st310-10\\documents\\\u043A\u0430\u0440\u0430\u043C\u043E\u0432\\pages\\addform.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{193CDB7D-ADD4-4BD1-BA64-5BD8BAF835F2}|pract12_trpo.csproj|solutionrelative:pages\\addform.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{193CDB7D-ADD4-4BD1-BA64-5BD8BAF835F2}|pract12_trpo.csproj|c:\\users\\st310-10\\documents\\\u043A\u0430\u0440\u0430\u043C\u043E\u0432\\pages\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{193CDB7D-ADD4-4BD1-BA64-5BD8BAF835F2}|pract12_trpo.csproj|solutionrelative:pages\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{193CDB7D-ADD4-4BD1-BA64-5BD8BAF835F2}|pract12_trpo.csproj|c:\\users\\st310-10\\documents\\\u043A\u0430\u0440\u0430\u043C\u043E\u0432\\ui\\gui.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{193CDB7D-ADD4-4BD1-BA64-5BD8BAF835F2}|pract12_trpo.csproj|solutionrelative:ui\\gui.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{193CDB7D-ADD4-4BD1-BA64-5BD8BAF835F2}|pract12_trpo.csproj|c:\\users\\st310-10\\documents\\\u043A\u0430\u0440\u0430\u043C\u043E\u0432\\pages\\addrolepage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{193CDB7D-ADD4-4BD1-BA64-5BD8BAF835F2}|pract12_trpo.csproj|solutionrelative:pages\\addrolepage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{193CDB7D-ADD4-4BD1-BA64-5BD8BAF835F2}|pract12_trpo.csproj|c:\\users\\st310-10\\documents\\\u043A\u0430\u0440\u0430\u043C\u043E\u0432\\pages\\profilepage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{193CDB7D-ADD4-4BD1-BA64-5BD8BAF835F2}|pract12_trpo.csproj|solutionrelative:pages\\profilepage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{193CDB7D-ADD4-4BD1-BA64-5BD8BAF835F2}|pract12_trpo.csproj|c:\\users\\st310-10\\documents\\\u043A\u0430\u0440\u0430\u043C\u043E\u0432\\pages\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{193CDB7D-ADD4-4BD1-BA64-5BD8BAF835F2}|pract12_trpo.csproj|solutionrelative:pages\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{193CDB7D-ADD4-4BD1-BA64-5BD8BAF835F2}|pract12_trpo.csproj|c:\\users\\st310-10\\documents\\\u043A\u0430\u0440\u0430\u043C\u043E\u0432\\pages\\profilepage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
@@ -43,20 +59,12 @@
       "RelativeMoniker": "D:0:0:{193CDB7D-ADD4-4BD1-BA64-5BD8BAF835F2}|pract12_trpo.csproj|solutionrelative:data\\service\\rolesservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{193CDB7D-ADD4-4BD1-BA64-5BD8BAF835F2}|pract12_trpo.csproj|c:\\users\\st310-10\\documents\\\u043A\u0430\u0440\u0430\u043C\u043E\u0432\\pages\\addform.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{193CDB7D-ADD4-4BD1-BA64-5BD8BAF835F2}|pract12_trpo.csproj|solutionrelative:pages\\addform.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{193CDB7D-ADD4-4BD1-BA64-5BD8BAF835F2}|pract12_trpo.csproj|c:\\users\\st310-10\\documents\\\u043A\u0430\u0440\u0430\u043C\u043E\u0432\\classes\\userprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{193CDB7D-ADD4-4BD1-BA64-5BD8BAF835F2}|pract12_trpo.csproj|solutionrelative:classes\\userprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{193CDB7D-ADD4-4BD1-BA64-5BD8BAF835F2}|pract12_trpo.csproj|c:\\users\\st310-10\\documents\\\u043A\u0430\u0440\u0430\u043C\u043E\u0432\\pages\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{193CDB7D-ADD4-4BD1-BA64-5BD8BAF835F2}|pract12_trpo.csproj|solutionrelative:pages\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{193CDB7D-ADD4-4BD1-BA64-5BD8BAF835F2}|pract12_trpo.csproj|c:\\users\\st310-10\\documents\\\u043A\u0430\u0440\u0430\u043C\u043E\u0432\\pages\\addrolepage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{193CDB7D-ADD4-4BD1-BA64-5BD8BAF835F2}|pract12_trpo.csproj|solutionrelative:pages\\addrolepage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{193CDB7D-ADD4-4BD1-BA64-5BD8BAF835F2}|pract12_trpo.csproj|c:\\users\\st310-10\\documents\\\u043A\u0430\u0440\u0430\u043C\u043E\u0432\\data\\service\\usersservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -67,16 +75,8 @@
       "RelativeMoniker": "D:0:0:{193CDB7D-ADD4-4BD1-BA64-5BD8BAF835F2}|pract12_trpo.csproj|solutionrelative:pages\\addrolepage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{193CDB7D-ADD4-4BD1-BA64-5BD8BAF835F2}|pract12_trpo.csproj|c:\\users\\st310-10\\documents\\\u043A\u0430\u0440\u0430\u043C\u043E\u0432\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{193CDB7D-ADD4-4BD1-BA64-5BD8BAF835F2}|pract12_trpo.csproj|solutionrelative:data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{193CDB7D-ADD4-4BD1-BA64-5BD8BAF835F2}|pract12_trpo.csproj|c:\\users\\st310-10\\documents\\\u043A\u0430\u0440\u0430\u043C\u043E\u0432\\classes\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{193CDB7D-ADD4-4BD1-BA64-5BD8BAF835F2}|pract12_trpo.csproj|solutionrelative:classes\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{193CDB7D-ADD4-4BD1-BA64-5BD8BAF835F2}|pract12_trpo.csproj|c:\\users\\st310-10\\documents\\\u043A\u0430\u0440\u0430\u043C\u043E\u0432\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{193CDB7D-ADD4-4BD1-BA64-5BD8BAF835F2}|pract12_trpo.csproj|solutionrelative:app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{193CDB7D-ADD4-4BD1-BA64-5BD8BAF835F2}|pract12_trpo.csproj|c:\\users\\st310-10\\documents\\\u043A\u0430\u0440\u0430\u043C\u043E\u0432\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
@@ -110,24 +110,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 7,
+          "SelectedChildIndex": 19,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "MainPage.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\st310-10\\Documents\\\u041A\u0430\u0440\u0430\u043C\u043E\u0432\\Pages\\MainPage.xaml.cs",
-              "RelativeDocumentMoniker": "Pages\\MainPage.xaml.cs",
-              "ToolTip": "C:\\Users\\st310-10\\Documents\\\u041A\u0430\u0440\u0430\u043C\u043E\u0432\\Pages\\MainPage.xaml.cs",
-              "RelativeToolTip": "Pages\\MainPage.xaml.cs",
-              "ViewState": "AgIAABwAAAAAAAAAAAAAAFAAAAAnAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-19T15:40:02.473Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 1,
               "Title": "AddForm.xaml",
               "DocumentMoniker": "C:\\Users\\st310-10\\Documents\\\u041A\u0430\u0440\u0430\u043C\u043E\u0432\\Pages\\AddForm.xaml",
               "RelativeDocumentMoniker": "Pages\\AddForm.xaml",
@@ -139,7 +126,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 10,
               "Title": "Buttons.xaml",
               "DocumentMoniker": "C:\\Users\\st310-10\\Documents\\\u041A\u0430\u0440\u0430\u043C\u043E\u0432\\UI\\Buttons.xaml",
               "RelativeDocumentMoniker": "UI\\Buttons.xaml",
@@ -151,7 +138,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 5,
               "Title": "AddRolePage.xaml",
               "DocumentMoniker": "C:\\Users\\st310-10\\Documents\\\u041A\u0430\u0440\u0430\u043C\u043E\u0432\\Pages\\AddRolePage.xaml",
               "RelativeDocumentMoniker": "Pages\\AddRolePage.xaml",
@@ -163,7 +150,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 16,
               "Title": "UsersService.cs",
               "DocumentMoniker": "C:\\Users\\st310-10\\Documents\\\u041A\u0430\u0440\u0430\u043C\u043E\u0432\\Data\\Service\\UsersService.cs",
               "RelativeDocumentMoniker": "Data\\Service\\UsersService.cs",
@@ -171,12 +158,11 @@
               "RelativeToolTip": "Data\\Service\\UsersService.cs",
               "ViewState": "AgIAABgAAAAAAAAAAAAgwCUAAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-19T16:04:48.347Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-19T16:04:48.347Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 13,
               "Title": "RolesService.cs",
               "DocumentMoniker": "C:\\Users\\st310-10\\Documents\\\u041A\u0430\u0440\u0430\u043C\u043E\u0432\\Data\\Service\\RolesService.cs",
               "RelativeDocumentMoniker": "Data\\Service\\RolesService.cs",
@@ -184,12 +170,11 @@
               "RelativeToolTip": "Data\\Service\\RolesService.cs",
               "ViewState": "AgIAABEAAAAAAAAAAAA3wBgAAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-19T16:04:30.266Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-19T16:04:30.266Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 12,
               "Title": "RolesPage.xaml.cs",
               "DocumentMoniker": "C:\\Users\\st310-10\\Documents\\\u041A\u0430\u0440\u0430\u043C\u043E\u0432\\Pages\\RolesPage.xaml.cs",
               "RelativeDocumentMoniker": "Pages\\RolesPage.xaml.cs",
@@ -197,25 +182,24 @@
               "RelativeToolTip": "Pages\\RolesPage.xaml.cs",
               "ViewState": "AgIAACYAAAAAAAAAAAAkwFEAAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-19T15:41:58.447Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-19T15:41:58.447Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 6,
               "Title": "ProfilePage.xaml.cs",
               "DocumentMoniker": "C:\\Users\\st310-10\\Documents\\\u041A\u0430\u0440\u0430\u043C\u043E\u0432\\Pages\\ProfilePage.xaml.cs",
               "RelativeDocumentMoniker": "Pages\\ProfilePage.xaml.cs",
               "ToolTip": "C:\\Users\\st310-10\\Documents\\\u041A\u0430\u0440\u0430\u043C\u043E\u0432\\Pages\\ProfilePage.xaml.cs",
               "RelativeToolTip": "Pages\\ProfilePage.xaml.cs",
-              "ViewState": "AgIAABgAAAAAAAAAAAA3wCUAAAANAAAAAAAAAA==",
+              "ViewState": "AgIAACMAAAAAAAAAAAAgwDAAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-02-21T04:33:02.979Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "GUI.xaml",
               "DocumentMoniker": "C:\\Users\\st310-10\\Documents\\\u041A\u0430\u0440\u0430\u043C\u043E\u0432\\UI\\GUI.xaml",
               "RelativeDocumentMoniker": "UI\\GUI.xaml",
@@ -227,7 +211,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 9,
               "Title": "Default.xaml",
               "DocumentMoniker": "C:\\Users\\st310-10\\Documents\\\u041A\u0430\u0440\u0430\u043C\u043E\u0432\\Styles\\Colors\\Default.xaml",
               "RelativeDocumentMoniker": "Styles\\Colors\\Default.xaml",
@@ -239,19 +223,42 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 11,
               "Title": "RolesPage.xaml",
               "DocumentMoniker": "C:\\Users\\st310-10\\Documents\\\u041A\u0430\u0440\u0430\u043C\u043E\u0432\\Pages\\RolesPage.xaml",
               "RelativeDocumentMoniker": "Pages\\RolesPage.xaml",
               "ToolTip": "C:\\Users\\st310-10\\Documents\\\u041A\u0430\u0440\u0430\u043C\u043E\u0432\\Pages\\RolesPage.xaml",
               "RelativeToolTip": "Pages\\RolesPage.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2026-02-19T14:08:32.673Z",
+              "WhenOpened": "2026-02-19T14:08:32.673Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "App.xaml",
+              "DocumentMoniker": "C:\\Users\\st310-10\\Documents\\\u041A\u0430\u0440\u0430\u043C\u043E\u0432\\App.xaml",
+              "RelativeDocumentMoniker": "App.xaml",
+              "ToolTip": "C:\\Users\\st310-10\\Documents\\\u041A\u0430\u0440\u0430\u043C\u043E\u0432\\App.xaml",
+              "RelativeToolTip": "App.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-02-21T03:49:58.815Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 7,
+              "Title": "MainPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\st310-10\\Documents\\\u041A\u0430\u0440\u0430\u043C\u043E\u0432\\Pages\\MainPage.xaml.cs",
+              "RelativeDocumentMoniker": "Pages\\MainPage.xaml.cs",
+              "ToolTip": "C:\\Users\\st310-10\\Documents\\\u041A\u0430\u0440\u0430\u043C\u043E\u0432\\Pages\\MainPage.xaml.cs",
+              "RelativeToolTip": "Pages\\MainPage.xaml.cs",
+              "ViewState": "AgIAABwAAAAAAAAAAAAAAFAAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-19T15:40:02.473Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "AddForm.xaml.cs",
               "DocumentMoniker": "C:\\Users\\st310-10\\Documents\\\u041A\u0430\u0440\u0430\u043C\u043E\u0432\\Pages\\AddForm.xaml.cs",
               "RelativeDocumentMoniker": "Pages\\AddForm.xaml.cs",
@@ -264,27 +271,25 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 8,
               "Title": "ProfilePage.xaml",
               "DocumentMoniker": "C:\\Users\\st310-10\\Documents\\\u041A\u0430\u0440\u0430\u043C\u043E\u0432\\Pages\\ProfilePage.xaml",
               "RelativeDocumentMoniker": "Pages\\ProfilePage.xaml",
               "ToolTip": "C:\\Users\\st310-10\\Documents\\\u041A\u0430\u0440\u0430\u043C\u043E\u0432\\Pages\\ProfilePage.xaml",
               "RelativeToolTip": "Pages\\ProfilePage.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2026-02-21T04:31:49.799Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-21T04:31:49.799Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 15,
               "Title": "MainPage.xaml",
               "DocumentMoniker": "C:\\Users\\st310-10\\Documents\\\u041A\u0430\u0440\u0430\u043C\u043E\u0432\\Pages\\MainPage.xaml",
               "RelativeDocumentMoniker": "Pages\\MainPage.xaml",
               "ToolTip": "C:\\Users\\st310-10\\Documents\\\u041A\u0430\u0440\u0430\u043C\u043E\u0432\\Pages\\MainPage.xaml",
               "RelativeToolTip": "Pages\\MainPage.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2026-02-19T12:41:07.359Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-19T12:41:07.359Z"
             },
             {
               "$type": "Document",
@@ -296,12 +301,11 @@
               "RelativeToolTip": "Migrations\\20260221033356_AddedRoles.cs",
               "ViewState": "AgIAAAYAAAAAAAAAAAAmwBIAAAAhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-21T03:33:57.088Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-21T03:33:57.088Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 18,
               "Title": "User.cs",
               "DocumentMoniker": "C:\\Users\\st310-10\\Documents\\\u041A\u0430\u0440\u0430\u043C\u043E\u0432\\Classes\\User.cs",
               "RelativeDocumentMoniker": "Classes\\User.cs",
@@ -309,12 +313,11 @@
               "RelativeToolTip": "Classes\\User.cs",
               "ViewState": "AgIAACAAAAAAAAAAAAAhwCkAAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-21T03:43:33.604Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-21T03:43:33.604Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 14,
               "Title": "UserProfile.cs",
               "DocumentMoniker": "C:\\Users\\st310-10\\Documents\\\u041A\u0430\u0440\u0430\u043C\u043E\u0432\\Classes\\UserProfile.cs",
               "RelativeDocumentMoniker": "Classes\\UserProfile.cs",
@@ -322,12 +325,11 @@
               "RelativeToolTip": "Classes\\UserProfile.cs",
               "ViewState": "AgIAAAYAAAAAAAAAAAAAAB0AAAAXAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-07T06:42:46.298Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-07T06:42:46.298Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 17,
               "Title": "AddRolePage.xaml.cs",
               "DocumentMoniker": "C:\\Users\\st310-10\\Documents\\\u041A\u0430\u0440\u0430\u043C\u043E\u0432\\Pages\\AddRolePage.xaml.cs",
               "RelativeDocumentMoniker": "Pages\\AddRolePage.xaml.cs",
@@ -335,32 +337,19 @@
               "RelativeToolTip": "Pages\\AddRolePage.xaml.cs",
               "ViewState": "AgIAABwAAAAAAAAAAAA7wCUAAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-19T15:46:14.542Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-19T15:46:14.542Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 0,
               "Title": "AppDbContext.cs",
               "DocumentMoniker": "C:\\Users\\st310-10\\Documents\\\u041A\u0430\u0440\u0430\u043C\u043E\u0432\\Data\\AppDbContext.cs",
               "RelativeDocumentMoniker": "Data\\AppDbContext.cs",
               "ToolTip": "C:\\Users\\st310-10\\Documents\\\u041A\u0430\u0440\u0430\u043C\u043E\u0432\\Data\\AppDbContext.cs",
               "RelativeToolTip": "Data\\AppDbContext.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAswBwAAAAqAAAAAAAAAA==",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAwwB8AAAAuAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-02-21T03:30:48.634Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "App.xaml",
-              "DocumentMoniker": "C:\\Users\\st310-10\\Documents\\\u041A\u0430\u0440\u0430\u043C\u043E\u0432\\App.xaml",
-              "RelativeDocumentMoniker": "App.xaml",
-              "ToolTip": "C:\\Users\\st310-10\\Documents\\\u041A\u0430\u0440\u0430\u043C\u043E\u0432\\App.xaml",
-              "RelativeToolTip": "App.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2026-02-21T03:49:58.815Z",
               "EditorCaption": ""
             },
             {
@@ -372,8 +361,7 @@
               "ToolTip": "C:\\Users\\st310-10\\Documents\\\u041A\u0430\u0440\u0430\u043C\u043E\u0432\\MainWindow.xaml",
               "RelativeToolTip": "MainWindow.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2026-02-21T03:50:37.245Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-21T03:50:37.245Z"
             },
             {
               "$type": "Document",
