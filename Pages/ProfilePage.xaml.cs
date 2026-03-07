@@ -28,22 +28,6 @@ namespace pract12_trpo.Pages
         {
             InitializeComponent();
             DataContext = user;
-
-            BitmapImage avatarImg = new BitmapImage();
-            if (File.Exists(user.UserProfile.AvatarUrl))
-            {
-                avatarImg.BeginInit();
-                avatarImg.UriSource = new Uri(user.UserProfile.AvatarUrl);
-                avatarImg.EndInit();
-            }
-            else
-            {
-                avatarImg.BeginInit();
-                avatarImg.UriSource = new Uri("C:\\Users\\st310-10\\Documents\\Карамов\\Images\\Error.png");
-                avatarImg.EndInit();
-            }
-
-            Avatar.Source = avatarImg;
         }
         private void GoBack(object sender, RoutedEventArgs e)
         {

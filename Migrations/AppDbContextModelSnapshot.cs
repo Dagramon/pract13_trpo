@@ -22,6 +22,27 @@ namespace pract12_trpo.Migrations
 
             SqlServerModelBuilderExtensions.UseIdentityColumns(modelBuilder);
 
+            modelBuilder.Entity("pract12_trpo.Classes.InterestGroup", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<string>("Description")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Title")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("InterestGroup");
+                });
+
             modelBuilder.Entity("pract12_trpo.Classes.Role", b =>
                 {
                     b.Property<int>("Id")
@@ -36,7 +57,7 @@ namespace pract12_trpo.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("Roles", (string)null);
+                    b.ToTable("Roles");
                 });
 
             modelBuilder.Entity("pract12_trpo.Classes.User", b =>
@@ -73,7 +94,28 @@ namespace pract12_trpo.Migrations
 
                     b.HasIndex("RoleId");
 
-                    b.ToTable("Users", (string)null);
+                    b.ToTable("Users");
+                });
+
+            modelBuilder.Entity("pract12_trpo.Classes.UserInterestGroup", b =>
+                {
+                    b.Property<int>("UserId")
+                        .HasColumnType("int");
+
+                    b.Property<int>("InterestGroupId")
+                        .HasColumnType("int");
+
+                    b.Property<bool>("IsModerator")
+                        .HasColumnType("bit");
+
+                    b.Property<DateOnly>("JoinedAt")
+                        .HasColumnType("date");
+
+                    b.HasKey("UserId", "InterestGroupId");
+
+                    b.HasIndex("InterestGroupId");
+
+                    b.ToTable("UsersInterestGroups");
                 });
 
             modelBuilder.Entity("pract12_trpo.Classes.UserProfile", b =>
@@ -106,7 +148,7 @@ namespace pract12_trpo.Migrations
                     b.HasIndex("UserId")
                         .IsUnique();
 
-                    b.ToTable("UserProfiles", (string)null);
+                    b.ToTable("UserProfiles");
                 });
 
             modelBuilder.Entity("pract12_trpo.Classes.User", b =>
@@ -120,6 +162,25 @@ namespace pract12_trpo.Migrations
                     b.Navigation("Role");
                 });
 
+            modelBuilder.Entity("pract12_trpo.Classes.UserInterestGroup", b =>
+                {
+                    b.HasOne("pract12_trpo.Classes.InterestGroup", "InterestGroup")
+                        .WithMany("UserInterestGroups")
+                        .HasForeignKey("InterestGroupId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.HasOne("pract12_trpo.Classes.User", "User")
+                        .WithMany("UserInterestGroups")
+                        .HasForeignKey("UserId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("InterestGroup");
+
+                    b.Navigation("User");
+                });
+
             modelBuilder.Entity("pract12_trpo.Classes.UserProfile", b =>
                 {
                     b.HasOne("pract12_trpo.Classes.User", "User")
@@ -131,6 +192,11 @@ namespace pract12_trpo.Migrations
                     b.Navigation("User");
                 });
 
+            modelBuilder.Entity("pract12_trpo.Classes.InterestGroup", b =>
+                {
+                    b.Navigation("UserInterestGroups");
+                });
+
             modelBuilder.Entity("pract12_trpo.Classes.Role", b =>
                 {
                     b.Navigation("Users");
@@ -138,6 +204,8 @@ namespace pract12_trpo.Migrations
 
             modelBuilder.Entity("pract12_trpo.Classes.User", b =>
                 {
+                    b.Navigation("UserInterestGroups");
+
                     b.Navigation("UserProfile");
                 });
 #pragma warning restore 612, 618

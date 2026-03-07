@@ -20,8 +20,8 @@
                     VerticalAlignment="Center"
                     HorizontalAlignment="Center"
                     Grid.Row="1">
-            <Image x:Name="Avatar"
-                Source="..\Images\Error.png"/>
+            <Image Source="/Images/Error.png">
+            </Image>
             <StackPanel Orientation="Horizontal">
                 <TextBlock Text="Ссылка на аватар: "/>
                 <TextBlock Text="{Binding UserProfile.AvatarUrl}"></TextBlock>

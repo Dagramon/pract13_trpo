@@ -8,6 +8,12 @@
     <Compile Update="Pages\AddRolePage.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Update="Pages\InterestGroupForm.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Pages\InterestGroupsPage.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Update="Pages\MainPage.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
@@ -15,6 +21,9 @@
       <SubType>Code</SubType>
     </Compile>
     <Compile Update="Pages\RolesPage.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Pages\SignGroupPage.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
   </ItemGroup>

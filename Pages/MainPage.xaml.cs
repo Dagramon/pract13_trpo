@@ -83,5 +83,18 @@ namespace pract12_trpo.Pages
             }
             NavigationService.Navigate(new ProfilePage(user));
         }
+
+        private void GoInterestGroup_Click(object sender, RoutedEventArgs e)
+        {
+            NavigationService.Navigate(new InterestGroupsPage());
+        }
+
+        private void GoSignGroup_Click(object sender, RoutedEventArgs e)
+        {
+            if (user != null)
+                NavigationService.Navigate(new SignGroupPage(user));
+            else
+                MessageBox.Show("Выберите пользователя");
+        }
     }
 }
