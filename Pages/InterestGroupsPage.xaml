@@ -37,6 +37,7 @@
                             <TextBlock>Описание:</TextBlock>
                             <TextBlock Text="{Binding Description}"/>
                         </StackPanel>
+                        <Button Click="go_group">Перейти к странице группы</Button>
                     </StackPanel>
                 </DataTemplate>
             </ListView.ItemTemplate>

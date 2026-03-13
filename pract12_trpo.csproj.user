@@ -23,6 +23,9 @@
     <Compile Update="Pages\RolesPage.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Update="Pages\SelectedGroupPage.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Update="Pages\SignGroupPage.xaml.cs">
       <SubType>Code</SubType>
     </Compile>

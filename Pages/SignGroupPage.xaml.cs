@@ -47,10 +47,8 @@ namespace pract12_trpo.Pages
             }
             try
             {
-                if (joinedPicker.Text == userInterestGroup.JoinedAt.ToString())
-                {
-                    userInterestGroupService.Add(userInterestGroup);
-                }
+                userInterestGroupService.Add(userInterestGroup);
+                NavigationService.GoBack();
 
             } catch (Exception ex)
             {

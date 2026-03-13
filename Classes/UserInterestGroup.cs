@@ -32,8 +32,8 @@ namespace pract12_trpo.Classes
             get => _user;
             set => SetProperty(ref _user, value);
         }
-        private DateOnly _joinedAt;
-        public DateOnly JoinedAt
+        private DateTime _joinedAt;
+        public DateTime JoinedAt
         {
             get => _joinedAt;
             set => SetProperty(ref _joinedAt, value);

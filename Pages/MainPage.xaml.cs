@@ -3,6 +3,7 @@ using pract12_trpo.Data.Service;
 
 using System;
 using System.Collections.Generic;
+using System.Collections.ObjectModel;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -25,6 +26,8 @@ namespace pract12_trpo.Pages
     {
         public UsersService service { get; set; } = new();
         public User? user { get; set; } = null;
+
+        public ObservableCollection<UserInterestGroup> currentUserGroups { get; set; } = new();
         public MainPage()
         {
             InitializeComponent();
@@ -95,6 +98,19 @@ namespace pract12_trpo.Pages
                 NavigationService.Navigate(new SignGroupPage(user));
             else
                 MessageBox.Show("Выберите пользователя");
+        }
+
+        private void ChangedUser(object sender, SelectionChangedEventArgs e)
+        {
+            if (user != null)
+            {
+                currentUserGroups.Clear();
+
+                foreach (UserInterestGroup item in user.UserInterestGroups)
+                {
+                    currentUserGroups.Add(item);
+                }
+            }
         }
     }
 }

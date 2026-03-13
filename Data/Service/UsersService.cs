@@ -28,6 +28,7 @@ namespace pract12_trpo.Data.Service
                 Password = user.Password,
                 CreatedAt = user.CreatedAt,
                 UserProfile = user.UserProfile,
+                UserInterestGroups = user.UserInterestGroups,
                 RoleId = user.RoleId,
                 Role = user.Role,
             };
@@ -41,6 +42,8 @@ namespace pract12_trpo.Data.Service
             var users = _db.Users
                         .Include(u => u.UserProfile)
                         .Include(u => u.Role)
+                        .Include(u => u.UserInterestGroups)
+                        .ThenInclude(u => u.InterestGroup)
                         .ToList();
             Users.Clear();
             foreach (var u in users)

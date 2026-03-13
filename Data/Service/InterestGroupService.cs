@@ -24,6 +24,7 @@ namespace pract12_trpo.Data.Service
                 Id = interestGroup.Id,
                 Title = interestGroup.Title,
                 Description = interestGroup.Description,
+                UserInterestGroups = interestGroup.UserInterestGroups,
             };
             _db.Add<InterestGroup>(_interestGroup);
             Commit();

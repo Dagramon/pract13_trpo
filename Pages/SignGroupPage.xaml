@@ -5,7 +5,6 @@
       xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
       xmlns:local="clr-namespace:pract12_trpo.Pages"
       xmlns:validators="clr-namespace:pract12_trpo.Classes.Validations"
-      xmlns:converters="clr-namespace:pract12_trpo.Classes.Converters"
       mc:Ignorable="d" 
       d:DesignHeight="450" d:DesignWidth="800"
       Title="SignGroupPage">
@@ -28,7 +27,7 @@
             <TextBlock Text="{Binding userInterestGroup.User.UserName}"></TextBlock>
             <TextBlock Text="{Binding userInterestGroup.User.Email}"></TextBlock>
             <TextBlock Text="{Binding userInterestGroup.User.CreatedAt, StringFormat={}Добавлен: {0}}"></TextBlock>
-            <TextBlock Text="{Binding userInterestGroup.User.Role}"></TextBlock>
+            <TextBlock Text="{Binding userInterestGroup.User.Role.Title}"></TextBlock>
             <StackPanel Orientation="Horizontal" Margin="5">
                 <CheckBox IsChecked="{Binding userInterestGroup.IsModerator}"></CheckBox>
                 <Label>Должен быть модератором группы?</Label>
@@ -39,9 +38,6 @@
                     <DatePicker.SelectedDate>
                         <Binding Path="userInterestGroup.JoinedAt"
                                  UpdateSourceTrigger="PropertyChanged">
-                            <Binding.Converter>
-                                <converters:DateConverter/>
-                            </Binding.Converter>
                             <Binding.ValidationRules>
                                 <validators:DateValidation/>
                             </Binding.ValidationRules>

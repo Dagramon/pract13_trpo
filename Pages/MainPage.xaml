@@ -20,20 +20,42 @@
             <Button Click="GoInterestGroup_Click">Группы интересов</Button>
             <Button Click="GoProfile_Click">Профиль выбранного пользователя</Button>
             <Button Click="GoSignGroup_Click">Записать в группу интересов</Button>
+            <Label>Список интересов:</Label>
+            <ListView ItemsSource="{Binding currentUserGroups}">
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <StackPanel Orientation="Vertical">
+                            <TextBlock>
+                                <Run Text="Группа: "/>
+                                <Run Text="{Binding InterestGroup.Title}"/>
+                            </TextBlock>
+                            <TextBlock>
+                                <Run Text="Дата вступления: "/>
+                                <Run Text="{Binding JoinedAt, StringFormat={}{0:dd.MM.yyyy}}"/>
+                            </TextBlock>
+                            <TextBlock>Модератор?</TextBlock>
+                            <CheckBox IsEnabled="False"
+                                      IsChecked="{Binding IsModerator}"/>
+                        </StackPanel>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
         </StackPanel>
         <ListView Grid.Column="1"
                   ItemsSource="{Binding service.Users}"
                   MouseDoubleClick="Edit"
                   SelectedItem="{Binding user}"
                   Width="auto"
-                  HorizontalAlignment="Center">
+                  HorizontalAlignment="Center"
+                  SelectionChanged="ChangedUser">
             <ListView.ItemTemplate>
                 <DataTemplate>
                     <Border BorderBrush="Black"
                             BorderThickness="3"
                             Padding="15"
-                            CornerRadius="5">
-                        <StackPanel>
+                            CornerRadius="5"
+                            Width="250">
+                        <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center">
                             <StackPanel Orientation="Horizontal">
                                 <TextBlock Text="ID: "/>
                                 <TextBlock Text="{Binding Id}"></TextBlock>

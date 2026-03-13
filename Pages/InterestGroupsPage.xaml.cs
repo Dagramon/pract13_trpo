@@ -28,6 +28,7 @@ namespace pract12_trpo.Pages
         public InterestGroupsPage()
         {
             InitializeComponent();
+            service.GetAll();
             DataContext = this;
         }
 
@@ -65,6 +66,16 @@ namespace pract12_trpo.Pages
         private void go_back(object sender, RoutedEventArgs e)
         {
             NavigationService.GoBack();
+        }
+
+        private void go_group(object sender, RoutedEventArgs e)
+        {
+            Button btn = sender as Button;
+
+            InterestGroup group = btn.DataContext as InterestGroup;
+
+            NavigationService.Navigate(new SelectedGroupPage(group));
+
         }
     }
 }

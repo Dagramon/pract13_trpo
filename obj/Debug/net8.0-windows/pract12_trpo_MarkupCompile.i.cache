@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-C:\Users\st310-10\Source\Repos\pract13_trpo\obj\Debug\net8.0-windows\
+C:\Users\Damir\source\repos\trpo14\obj\Debug\net8.0-windows\
 pract12_trpo
 none
 false
 TRACE;DEBUG;NET;NET8_0;NETCOREAPP;WINDOWS;WINDOWS7_0;NET5_0_OR_GREATER;NET6_0_OR_GREATER;NET7_0_OR_GREATER;NET8_0_OR_GREATER;NETCOREAPP3_0_OR_GREATER;NETCOREAPP3_1_OR_GREATER;WINDOWS7_0_OR_GREATER
-C:\Users\st310-10\Source\Repos\pract13_trpo\App.xaml
-12-117354832
-22-1807089180
-4474517895
-231-664626770
-MainWindow.xaml;Pages\AddForm.xaml;Pages\AddRolePage.xaml;Pages\InterestGroupForm.xaml;Pages\InterestGroupsPage.xaml;Pages\MainPage.xaml;Pages\ProfilePage.xaml;Pages\RolesPage.xaml;Pages\SignGroupPage.xaml;Styles\Colors\Default.xaml;UI\Buttons.xaml;UI\GUI.xaml;
+C:\Users\Damir\source\repos\trpo14\App.xaml
+13561184251
+221625505244
+472096584176
+231-888353999
+MainWindow.xaml;Pages\AddForm.xaml;Pages\AddRolePage.xaml;Pages\InterestGroupForm.xaml;Pages\InterestGroupsPage.xaml;Pages\MainPage.xaml;Pages\ProfilePage.xaml;Pages\RolesPage.xaml;Pages\SelectedGroupPage.xaml;Pages\SignGroupPage.xaml;Styles\Colors\Default.xaml;UI\Buttons.xaml;UI\GUI.xaml;
 
 True
 

@@ -19,7 +19,7 @@ namespace pract12_trpo.Data
         public DbSet<UserInterestGroup> UsersInterestGroups { get; set; }
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            optionsBuilder.UseSqlServer("Server=sql.ects;Database=KaramovUsersDB;User Id=student_10;Password=student_10;TrustServerCertificate=True;");
+            optionsBuilder.UseSqlServer("Data Source=DESKTOP-12JMA7R\\SQLEXPRESS;Initial Catalog=KaramovUsersDB;Integrated Security=True;Persist Security Info=False;Pooling=False;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=True;Application Name=\"SQL Server Management Studio\";Command Timeout=0");
         }
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {

@@ -108,8 +108,8 @@ namespace pract12_trpo.Migrations
                     b.Property<bool>("IsModerator")
                         .HasColumnType("bit");
 
-                    b.Property<DateOnly>("JoinedAt")
-                        .HasColumnType("date");
+                    b.Property<DateTime>("JoinedAt")
+                        .HasColumnType("datetime2");
 
                     b.HasKey("UserId", "InterestGroupId");
 
